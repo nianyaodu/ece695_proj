@@ -1,0 +1,8 @@
+Traceback (most recent call last):
+  File "/Users/amber/Desktop/ece695_proj/scripts/run_deep_lasso.py", line 18, in <module>
+    from src.tabular_feature_selection.train_deep_model import main as train_main
+  File "/Users/amber/Desktop/ece695_proj/src/tabular_feature_selection/train_deep_model.py", line 10, in <module>
+    import src.tabular_feature_selection.deep_tabular as dt
+  File "/Users/amber/Desktop/ece695_proj/src/tabular_feature_selection/deep_tabular/__init__.py", line 1, in <module>
+    from deep_tabular import models
+ModuleNotFoundError: No module named 'deep_tabular'

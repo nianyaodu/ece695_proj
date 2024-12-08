@@ -1,0 +1,256 @@
+INFO:__main__:Starting simulation: n=100, p=5, k=2, type=continuous
+ERROR:__main__:Error in simulation: only length-1 arrays can be converted to Python scalars
+INFO:__main__:Starting simulation: n=1000, p=5, k=2, type=continuous
+ERROR:__main__:Error in simulation: only length-1 arrays can be converted to Python scalars
+INFO:__main__:Starting simulation: n=10000, p=5, k=2, type=continuous
+ERROR:__main__:Error in simulation: only length-1 arrays can be converted to Python scalars
+INFO:__main__:Starting simulation: n=100, p=20, k=5, type=continuous
+ERROR:__main__:Error in simulation: only length-1 arrays can be converted to Python scalars
+INFO:__main__:Starting simulation: n=1000, p=20, k=5, type=continuous
+#########################################
+################ n=100, p=5, k=2, type=continuous ################
+#########################################
+
+Performing feature analysis...
+
+Performing feature analysis 1
+Searching relatidness for feature 0
+Best subset is: ['V2', 'V4']
+Searching relatidness for feature 1
+Best subset is: ['V1']
+Searching relatidness for feature 2
+Best subset is: ['V1', 'V4']
+Searching relatidness for feature 3
+Best subset is: ['V1', 'V2', 'V3', 'V5']
+Searching relatidness for feature 4
+Best subset is: ['V4']
+Searching relevant features...
+Best subset is: ['V1', 'V2']
+Searching the best subset to predict feature 0
+Best subset is: ['V2', 'V4']
+[0, 2, 4]
+Searching the best subset to predict feature 1
+Best subset is: ['V1']
+[1, 2, 3, 4]
+Research completed!
+The relevant features are: ['V1', 'V2']
+The redundant features are: ['V4']
+The irrelevant features are: ['V3', 'V5']
+number of features selected is 2
+
+ average sparsity is: 0.400
+
+Selected 2 features:
+Training Isotropic GRNN...
+Fitting 5 folds for each of 390 candidates, totalling 1950 fits
+loss is 1.0477907905734898
+loss_baseline is 3.8673751096901254
+relative loss for igrnn is 0.27093073747828
+
+Training Anisotropic GRNN...
+loss is 0.9380804745477875
+loss_baseline is 3.8673751096901254
+relative loss for agrnn is 0.24256257744363244
+#########################################
+################ n=1000, p=5, k=2, type=continuous ################
+#########################################
+
+Performing feature analysis...
+
+Performing feature analysis 1
+Searching relatidness for feature 0
+Best subset is: ['V2']
+Searching relatidness for feature 1
+Best subset is: ['V1', 'V3']
+Searching relatidness for feature 2
+Best subset is: ['V2', 'V4']
+Searching relatidness for feature 3
+Best subset is: ['V3', 'V5']
+Searching relatidness for feature 4
+Best subset is: ['V4']
+Searching relevant features...
+Best subset is: ['V1', 'V2']
+Searching the best subset to predict feature 0
+Best subset is: ['V2']
+[0, 2, 3, 4]
+Searching the best subset to predict feature 1
+Best subset is: ['V1', 'V3']
+[1, 3, 4]
+Research completed!
+The relevant features are: ['V1', 'V2']
+The redundant features are: ['V3']
+The irrelevant features are: ['V4', 'V5']
+number of features selected is 2
+
+ average sparsity is: 0.400
+
+Selected 2 features:
+Training Isotropic GRNN...
+Fitting 5 folds for each of 390 candidates, totalling 1950 fits
+loss is 1.398409879976199
+loss_baseline is 3.0520066350428268
+relative loss for igrnn is 0.45819359103607454
+
+Training Anisotropic GRNN...
+loss is 1.0931127553957969
+loss_baseline is 3.0520066350428268
+relative loss for agrnn is 0.3581619852476035
+#########################################
+################ n=10000, p=5, k=2, type=continuous ################
+#########################################
+
+Performing feature analysis...
+
+Performing feature analysis 1
+Searching relatidness for feature 0
+Best subset is: ['V2']
+Searching relatidness for feature 1
+Best subset is: ['V1', 'V3']
+Searching relatidness for feature 2
+Best subset is: ['V2', 'V4']
+Searching relatidness for feature 3
+Best subset is: ['V3', 'V5']
+Searching relatidness for feature 4
+Best subset is: ['V4']
+Searching relevant features...
+Best subset is: ['V3', 'V4']
+Searching the best subset to predict feature 2
+Best subset is: ['V2', 'V4']
+[0, 2, 4]
+Searching the best subset to predict feature 3
+Best subset is: ['V3', 'V5']
+[0, 1, 3]
+Research completed!
+The relevant features are: ['V3', 'V4']
+The redundant features are: ['V2', 'V5']
+The irrelevant features are: ['V1']
+number of features selected is 2
+
+ average sparsity is: 0.400
+
+Selected 2 features:
+Training Isotropic GRNN...
+Fitting 5 folds for each of 390 candidates, totalling 1950 fits
+loss is 1.2494067078858584
+loss_baseline is 2.171931814656383
+relative loss for igrnn is 0.5752513497222861
+
+Training Anisotropic GRNN...
+loss is 0.9847958069516695
+loss_baseline is 2.171931814656383
+relative loss for agrnn is 0.45341930179676104
+#########################################
+################ n=100, p=20, k=5, type=continuous ################
+#########################################
+
+Performing feature analysis...
+
+Performing feature analysis 1
+Searching relatidness for feature 0
+Best subset is: ['V2', 'V4', 'V11', 'V19']
+Searching relatidness for feature 1
+Best subset is: ['V1', 'V3', 'V7', 'V16']
+Searching relatidness for feature 2
+Best subset is: ['V2', 'V7', 'V15', 'V19']
+Searching relatidness for feature 3
+Best subset is: ['V2', 'V8', 'V17']
+Searching relatidness for feature 4
+Best subset is: ['V3']
+Searching relatidness for feature 5
+Best subset is: ['V7', 'V19']
+Searching relatidness for feature 6
+Best subset is: ['V6', 'V8', 'V16']
+Searching relatidness for feature 7
+Best subset is: ['V1', 'V7', 'V9', 'V10', 'V12', 'V19', 'V20']
+Searching relatidness for feature 8
+Best subset is: ['V6', 'V8', 'V10']
+Searching relatidness for feature 9
+Best subset is: ['V4', 'V8', 'V12']
+Searching relatidness for feature 10
+Best subset is: ['V1', 'V3', 'V4', 'V12']
+Searching relatidness for feature 11
+Best subset is: ['V3', 'V4', 'V11', 'V13', 'V15']
+Searching relatidness for feature 12
+Best subset is: ['V6', 'V8', 'V10', 'V11', 'V12', 'V14', 'V17']
+Searching relatidness for feature 13
+Best subset is: ['V13', 'V17']
+Searching relatidness for feature 14
+Best subset is: ['V2', 'V3', 'V9', 'V12', 'V16']
+Searching relatidness for feature 15
+Best subset is: ['V2', 'V3', 'V4', 'V6', 'V8', 'V10', 'V15', 'V17', 'V18', 'V19']
+Searching relatidness for feature 16
+Best subset is: ['V3', 'V9', 'V14', 'V16', 'V18', 'V19']
+Searching relatidness for feature 17
+Best subset is: ['V1', 'V13', 'V19']
+Searching relatidness for feature 18
+Best subset is: ['V1', 'V2', 'V3', 'V4', 'V8', 'V11', 'V13', 'V14', 'V18', 'V20']
+Searching relatidness for feature 19
+Best subset is: ['V2', 'V4', 'V11', 'V13', 'V18', 'V19']
+Searching relevant features...
+Best subset is: ['V3', 'V7', 'V10']
+Searching the best subset to predict feature 2
+Best subset is: ['V2', 'V7', 'V15', 'V19']
+[0, 2, 3, 4, 5, 7, 8, 9, 10, 11, 12, 13, 15, 16, 17, 19]
+Searching the best subset to predict feature 6
+Best subset is: ['V6', 'V8', 'V16']
+[0, 1, 2, 3, 4, 6, 8, 9, 10, 11, 12, 13, 14, 16, 17, 18, 19]
+Searching the best subset to predict feature 9
+Best subset is: ['V4', 'V8', 'V12']
+[0, 1, 2, 4, 5, 6, 8, 9, 10, 12, 13, 14, 15, 16, 17, 18, 19]
+Research completed!
+The relevant features are: ['V3', 'V7', 'V10']
+The redundant features are: ['V2', 'V15', 'V19', 'V6', 'V8', 'V16', 'V4', 'V12']
+The irrelevant features are: ['V1', 'V5', 'V9', 'V11', 'V13', 'V14', 'V17', 'V18', 'V20']
+number of features selected is 3
+
+ average sparsity is: 0.150
+
+Selected 3 features:
+Training Isotropic GRNN...
+Fitting 5 folds for each of 390 candidates, totalling 1950 fits
+loss is 2.0901925270877015
+loss_baseline is 8.516175092600676
+relative loss for igrnn is 0.24543794653820308
+
+Training Anisotropic GRNN...
+loss is 2.0413129183520025
+loss_baseline is 8.516175092600676
+relative loss for agrnn is 0.2396983265557337
+#########################################
+################ n=1000, p=20, k=5, type=continuous ################
+#########################################
+
+Performing feature analysis...
+
+Performing feature analysis 1
+Searching relatidness for feature 0
+Best subset is: ['V2', 'V5']
+Searching relatidness for feature 1
+Best subset is: ['V1', 'V3']
+Searching relatidness for feature 2
+Best subset is: ['V2', 'V4', 'V10', 'V15']
+Searching relatidness for feature 3
+Best subset is: ['V3', 'V5']
+Searching relatidness for feature 4
+Best subset is: ['V4', 'V6', 'V20']
+Searching relatidness for feature 5
+Best subset is: ['V5', 'V7']
+Searching relatidness for feature 6
+Best subset is: ['V6', 'V8']
+Searching relatidness for feature 7
+Best subset is: ['V1', 'V7', 'V9']
+Searching relatidness for feature 8
+Best subset is: ['V2', 'V8', 'V10', 'V12']
+Searching relatidness for feature 9
+Best subset is: ['V9', 'V11']
+Searching relatidness for feature 10
+Best subset is: ['V10', 'V12', 'V19']
+Searching relatidness for feature 11
+Best subset is: ['V11', 'V13']
+Searching relatidness for feature 12
+Best subset is: ['V12', 'V14']
+Searching relatidness for feature 13
+ERROR:__main__:Error in simulation: only length-1 arrays can be converted to Python scalars
+INFO:__main__:Starting simulation: n=10000, p=20, k=5, type=continuous
+ERROR:__main__:Error in simulation: only length-1 arrays can be converted to Python scalars
+INFO:__main__:Starting simulation: n=100, p=100, k=10, type=continuous

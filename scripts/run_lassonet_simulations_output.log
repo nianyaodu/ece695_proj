@@ -1,0 +1,460 @@
+#########################################
+################ n=100, p=5, k=2, type=continuous ################
+#########################################
+INFO:__main__:Starting simulation: n=100, p=5, k=2, type=continuous
+X_train.shape: (64, 5), X_val.shape: (16, 5), X_test.shape: (20, 5)
+y_train.shape: (64,), y_val.shape: (16,), y_test.shape: (20,)
+Number of selected features in the setting n=100, p=5, k=2: 2
+X_train.shape is (64, 5)
+len(SELECTED_FEATURES) is 5
+SELECTED_FEATURES is tensor([ True,  True, False, False, False])
+SELECTED_FEATURES.sum() is 2
+SELECTED_FEATURES.sum().item() is 2
+Average sparsity: 0.4
+loss is 1.4247890364569895
+loss_baseline is 4.240816933367186
+Mean of predictions: -0.5693737268447876
+Std of predictions: 1.2612861394882202
+Mean of true values: -0.5593269961764935
+Std of true values: 2.028181989493807
+Relative loss: 0.336
+Test R2 score in n=100, p=5, k=2, type=continuous: [0.07581257156260224, 0.6536328301532028]
+WARNING:root:Two scores are not the same: [0.07581257156260224, 0.6536328301532028]
+Duration for running in the setting n=100, p=5, k=2, type=continuous: 10.52632188796997 seconds
+INFO:__main__:Simulation completed successfully
+#########################################
+################ n=100, p=5, k=2, type=binary ################
+#########################################
+INFO:__main__:Starting simulation: n=100, p=5, k=2, type=binary
+X_train.shape: (64, 5), X_val.shape: (16, 5), X_test.shape: (20, 5)
+y_train.shape: (64,), y_val.shape: (16,), y_test.shape: (20,)
+Number of selected features in the setting n=100, p=5, k=2: 2
+X_train.shape is (64, 5)
+len(SELECTED_FEATURES) is 5
+SELECTED_FEATURES is tensor([ True, False, False, False,  True])
+SELECTED_FEATURES.sum() is 2
+SELECTED_FEATURES.sum().item() is 2
+Average sparsity: 0.4
+calculating cross entropy loss for categorical response
+loss is 0.349491417594254
+loss_baseline is 0.3465735902799726
+Relative loss: 1.008
+Test accuracy in n=100, p=5, k=2, type=binary: [0.6, 0.6]
+Duration for running in the setting n=100, p=5, k=2, type=binary: 14.880926132202148 seconds
+INFO:__main__:Simulation completed successfully
+#########################################
+################ n=1000, p=5, k=2, type=continuous ################
+#########################################
+INFO:__main__:Starting simulation: n=1000, p=5, k=2, type=continuous
+X_train.shape: (640, 5), X_val.shape: (160, 5), X_test.shape: (200, 5)
+y_train.shape: (640,), y_val.shape: (160,), y_test.shape: (200,)
+Number of selected features in the setting n=1000, p=5, k=2: 2
+X_train.shape is (640, 5)
+len(SELECTED_FEATURES) is 5
+SELECTED_FEATURES is tensor([ True,  True, False, False, False])
+SELECTED_FEATURES.sum() is 2
+SELECTED_FEATURES.sum().item() is 2
+Average sparsity: 0.4
+loss is 0.9767263297077239
+loss_baseline is 3.3564254626997325
+Mean of predictions: -0.0389593280851841
+Std of predictions: 1.3404194116592407
+Mean of true values: 0.08181738637292595
+Std of true values: 1.83170658172466
+Relative loss: 0.291
+Test R2 score in n=1000, p=5, k=2, type=continuous: [0.5242387196733559, 0.7088873462068837]
+WARNING:root:Two scores are not the same: [0.5242387196733559, 0.7088873462068837]
+Duration for running in the setting n=1000, p=5, k=2, type=continuous: 13.465068817138672 seconds
+INFO:__main__:Simulation completed successfully
+#########################################
+################ n=1000, p=5, k=2, type=binary ################
+#########################################
+INFO:__main__:Starting simulation: n=1000, p=5, k=2, type=binary
+X_train.shape: (640, 5), X_val.shape: (160, 5), X_test.shape: (200, 5)
+y_train.shape: (640,), y_val.shape: (160,), y_test.shape: (200,)
+Number of selected features in the setting n=1000, p=5, k=2: 2
+X_train.shape is (640, 5)
+len(SELECTED_FEATURES) is 5
+SELECTED_FEATURES is tensor([ True,  True, False, False, False])
+SELECTED_FEATURES.sum() is 2
+SELECTED_FEATURES.sum().item() is 2
+Average sparsity: 0.4
+calculating cross entropy loss for categorical response
+loss is 0.269381454042159
+loss_baseline is 0.34750534525593374
+Relative loss: 0.775
+Test accuracy in n=1000, p=5, k=2, type=binary: [0.71, 0.71]
+Duration for running in the setting n=1000, p=5, k=2, type=binary: 18.71182680130005 seconds
+INFO:__main__:Simulation completed successfully
+#########################################
+################ n=10000, p=5, k=2, type=continuous ################
+#########################################
+INFO:__main__:Starting simulation: n=10000, p=5, k=2, type=continuous
+X_train.shape: (6400, 5), X_val.shape: (1600, 5), X_test.shape: (2000, 5)
+y_train.shape: (6400,), y_val.shape: (1600,), y_test.shape: (2000,)
+Number of selected features in the setting n=10000, p=5, k=2: 2
+X_train.shape is (6400, 5)
+len(SELECTED_FEATURES) is 5
+SELECTED_FEATURES is tensor([False, False,  True,  True, False])
+SELECTED_FEATURES.sum() is 2
+SELECTED_FEATURES.sum().item() is 2
+Average sparsity: 0.4
+loss is 1.077233107910433
+loss_baseline is 2.1748460014896485
+Mean of predictions: -0.0026787356473505497
+Std of predictions: 0.9067623019218445
+Mean of true values: 0.021286038676989708
+Std of true values: 1.4745257159005942
+Relative loss: 0.495
+Test R2 score in n=10000, p=5, k=2, type=continuous: [0.4714555522390119, 0.5045441159847139]
+WARNING:root:Two scores are not the same: [0.4714555522390119, 0.5045441159847139]
+Duration for running in the setting n=10000, p=5, k=2, type=continuous: 79.95117282867432 seconds
+INFO:__main__:Simulation completed successfully
+#########################################
+################ n=10000, p=5, k=2, type=binary ################
+#########################################
+INFO:__main__:Starting simulation: n=10000, p=5, k=2, type=binary
+X_train.shape: (6400, 5), X_val.shape: (1600, 5), X_test.shape: (2000, 5)
+y_train.shape: (6400,), y_val.shape: (1600,), y_test.shape: (2000,)
+Number of selected features in the setting n=10000, p=5, k=2: 2
+X_train.shape is (6400, 5)
+len(SELECTED_FEATURES) is 5
+SELECTED_FEATURES is tensor([False, False,  True,  True, False])
+SELECTED_FEATURES.sum() is 2
+SELECTED_FEATURES.sum().item() is 2
+Average sparsity: 0.4
+calculating cross entropy loss for categorical response
+loss is 0.2933850133321248
+loss_baseline is 0.3465554066600787
+Relative loss: 0.847
+Test accuracy in n=10000, p=5, k=2, type=binary: [0.684, 0.684]
+Duration for running in the setting n=10000, p=5, k=2, type=binary: 107.33797287940979 seconds
+INFO:__main__:Simulation completed successfully
+#########################################
+################ n=100, p=20, k=5, type=continuous ################
+#########################################
+INFO:__main__:Starting simulation: n=100, p=20, k=5, type=continuous
+X_train.shape: (64, 20), X_val.shape: (16, 20), X_test.shape: (20, 20)
+y_train.shape: (64,), y_val.shape: (16,), y_test.shape: (20,)
+Number of selected features in the setting n=100, p=20, k=5: 5
+X_train.shape is (64, 20)
+len(SELECTED_FEATURES) is 20
+SELECTED_FEATURES is tensor([ True, False,  True, False, False, False,  True, False,  True,  True,
+        False, False, False, False, False, False, False, False, False, False])
+SELECTED_FEATURES.sum() is 5
+SELECTED_FEATURES.sum().item() is 5
+Average sparsity: 0.25
+loss is 1.504585610700929
+loss_baseline is 13.931623768772962
+Mean of predictions: -0.2580401599407196
+Std of predictions: 3.4482271671295166
+Mean of true values: -0.7820655566998148
+Std of true values: 3.585927509878696
+Relative loss: 0.108
+Test R2 score in n=100, p=20, k=5, type=continuous: [0.6105776136380847, 0.8829924483068455]
+WARNING:root:Two scores are not the same: [0.6105776136380847, 0.8829924483068455]
+Duration for running in the setting n=100, p=20, k=5, type=continuous: 10.45399022102356 seconds
+INFO:__main__:Simulation completed successfully
+#########################################
+################ n=100, p=20, k=5, type=binary ################
+#########################################
+INFO:__main__:Starting simulation: n=100, p=20, k=5, type=binary
+X_train.shape: (64, 20), X_val.shape: (16, 20), X_test.shape: (20, 20)
+y_train.shape: (64,), y_val.shape: (16,), y_test.shape: (20,)
+Number of selected features in the setting n=100, p=20, k=5: 5
+X_train.shape is (64, 20)
+len(SELECTED_FEATURES) is 20
+SELECTED_FEATURES is tensor([False, False, False, False, False, False,  True,  True, False,  True,
+         True, False,  True, False, False, False, False, False, False, False])
+SELECTED_FEATURES.sum() is 5
+SELECTED_FEATURES.sum().item() is 5
+Average sparsity: 0.25
+calculating cross entropy loss for categorical response
+loss is 0.13122527951345547
+loss_baseline is 0.3452548412673959
+Relative loss: 0.380
+Test accuracy in n=100, p=20, k=5, type=binary: [0.85, 0.85]
+Duration for running in the setting n=100, p=20, k=5, type=binary: 15.42733907699585 seconds
+INFO:__main__:Simulation completed successfully
+#########################################
+################ n=1000, p=20, k=5, type=continuous ################
+#########################################
+INFO:__main__:Starting simulation: n=1000, p=20, k=5, type=continuous
+X_train.shape: (640, 20), X_val.shape: (160, 20), X_test.shape: (200, 20)
+y_train.shape: (640,), y_val.shape: (160,), y_test.shape: (200,)
+Number of selected features in the setting n=1000, p=20, k=5: 5
+X_train.shape is (640, 20)
+len(SELECTED_FEATURES) is 20
+SELECTED_FEATURES is tensor([False, False,  True, False,  True, False, False, False, False, False,
+        False, False,  True, False, False,  True,  True, False, False, False])
+SELECTED_FEATURES.sum() is 5
+SELECTED_FEATURES.sum().item() is 5
+Average sparsity: 0.25
+loss is 1.089377783241775
+loss_baseline is 5.653785713453419
+Mean of predictions: -0.03441927954554558
+Std of predictions: 2.068192958831787
+Mean of true values: -0.011689765709059606
+Std of true values: 2.367732980117097
+Relative loss: 0.193
+Test R2 score in n=1000, p=20, k=5, type=continuous: [0.7613100331340475, 0.8056819842502109]
+WARNING:root:Two scores are not the same: [0.7613100331340475, 0.8056819842502109]
+Duration for running in the setting n=1000, p=20, k=5, type=continuous: 17.50534176826477 seconds
+INFO:__main__:Simulation completed successfully
+#########################################
+################ n=1000, p=20, k=5, type=binary ################
+#########################################
+INFO:__main__:Starting simulation: n=1000, p=20, k=5, type=binary
+X_train.shape: (640, 20), X_val.shape: (160, 20), X_test.shape: (200, 20)
+y_train.shape: (640,), y_val.shape: (160,), y_test.shape: (200,)
+Number of selected features in the setting n=1000, p=20, k=5: 5
+X_train.shape is (640, 20)
+len(SELECTED_FEATURES) is 20
+SELECTED_FEATURES is tensor([False, False,  True, False, False, False, False, False, False, False,
+        False,  True,  True, False, False,  True,  True, False, False, False])
+SELECTED_FEATURES.sum() is 5
+SELECTED_FEATURES.sum().item() is 5
+Average sparsity: 0.25
+calculating cross entropy loss for categorical response
+loss is 0.23328449687571265
+loss_baseline is 0.3470142788993185
+Relative loss: 0.672
+Test accuracy in n=1000, p=20, k=5, type=binary: [0.8, 0.8]
+Duration for running in the setting n=1000, p=20, k=5, type=binary: 23.989885091781616 seconds
+INFO:__main__:Simulation completed successfully
+#########################################
+################ n=10000, p=20, k=5, type=continuous ################
+#########################################
+INFO:__main__:Starting simulation: n=10000, p=20, k=5, type=continuous
+X_train.shape: (6400, 20), X_val.shape: (1600, 20), X_test.shape: (2000, 20)
+y_train.shape: (6400,), y_val.shape: (1600,), y_test.shape: (2000,)
+Number of selected features in the setting n=10000, p=20, k=5: 5
+X_train.shape is (6400, 20)
+len(SELECTED_FEATURES) is 20
+SELECTED_FEATURES is tensor([False, False, False, False, False, False,  True, False, False, False,
+        False,  True, False, False, False,  True, False,  True,  True, False])
+SELECTED_FEATURES.sum() is 5
+SELECTED_FEATURES.sum().item() is 5
+Average sparsity: 0.25
+loss is 1.038734606084699
+loss_baseline is 2.49944464694219
+Mean of predictions: 0.019463950768113136
+Std of predictions: 1.0471655130386353
+Mean of true values: 0.009000202361065487
+Std of true values: 1.5809605693560456
+Relative loss: 0.416
+Test R2 score in n=10000, p=20, k=5, type=continuous: [0.5188739640492742, 0.5844124545200289]
+WARNING:root:Two scores are not the same: [0.5188739640492742, 0.5844124545200289]
+Duration for running in the setting n=10000, p=20, k=5, type=continuous: 104.96358394622803 seconds
+INFO:__main__:Simulation completed successfully
+#########################################
+################ n=10000, p=20, k=5, type=binary ################
+#########################################
+INFO:__main__:Starting simulation: n=10000, p=20, k=5, type=binary
+X_train.shape: (6400, 20), X_val.shape: (1600, 20), X_test.shape: (2000, 20)
+y_train.shape: (6400,), y_val.shape: (1600,), y_test.shape: (2000,)
+Number of selected features in the setting n=10000, p=20, k=5: 5
+X_train.shape is (6400, 20)
+len(SELECTED_FEATURES) is 20
+SELECTED_FEATURES is tensor([False, False, False, False, False, False, False, False, False, False,
+        False,  True, False, False, False,  True,  True,  True,  True, False])
+SELECTED_FEATURES.sum() is 5
+SELECTED_FEATURES.sum().item() is 5
+Average sparsity: 0.25
+calculating cross entropy loss for categorical response
+loss is 0.2924444728256203
+loss_baseline is 0.3465583020827596
+Relative loss: 0.844
+Test accuracy in n=10000, p=20, k=5, type=binary: [0.6875, 0.6875]
+Duration for running in the setting n=10000, p=20, k=5, type=binary: 118.70539212226868 seconds
+INFO:__main__:Simulation completed successfully
+#########################################
+################ n=100, p=100, k=10, type=continuous ################
+#########################################
+INFO:__main__:Starting simulation: n=100, p=100, k=10, type=continuous
+X_train.shape: (64, 100), X_val.shape: (16, 100), X_test.shape: (20, 100)
+y_train.shape: (64,), y_val.shape: (16,), y_test.shape: (20,)
+Number of selected features in the setting n=100, p=100, k=10: 10
+X_train.shape is (64, 100)
+len(SELECTED_FEATURES) is 100
+SELECTED_FEATURES is tensor([False, False, False,  True, False, False, False,  True, False, False,
+        False, False, False, False, False, False, False, False,  True, False,
+        False,  True, False, False, False, False, False, False, False, False,
+        False, False,  True, False, False, False, False, False, False,  True,
+        False, False, False, False, False,  True, False,  True, False, False,
+        False, False, False, False, False, False, False, False, False, False,
+        False,  True, False, False, False, False, False, False, False, False,
+        False, False, False, False, False, False, False,  True, False, False,
+        False, False, False, False, False, False, False, False, False, False,
+        False, False, False, False, False, False, False, False, False, False])
+SELECTED_FEATURES.sum() is 10
+SELECTED_FEATURES.sum().item() is 10
+Average sparsity: 0.1
+loss is 1.4280475096539107
+loss_baseline is 9.883995395525059
+Mean of predictions: 0.016022061929106712
+Std of predictions: 2.931396245956421
+Mean of true values: -0.6548360199748614
+Std of true values: 3.029369372009301
+Relative loss: 0.144
+Test R2 score in n=100, p=100, k=10, type=continuous: [0.6780408071804876, 0.8443897516834871]
+WARNING:root:Two scores are not the same: [0.6780408071804876, 0.8443897516834871]
+Duration for running in the setting n=100, p=100, k=10, type=continuous: 12.67288088798523 seconds
+INFO:__main__:Simulation completed successfully
+#########################################
+################ n=100, p=100, k=10, type=binary ################
+#########################################
+INFO:__main__:Starting simulation: n=100, p=100, k=10, type=binary
+X_train.shape: (64, 100), X_val.shape: (16, 100), X_test.shape: (20, 100)
+y_train.shape: (64,), y_val.shape: (16,), y_test.shape: (20,)
+Number of selected features in the setting n=100, p=100, k=10: 10
+X_train.shape is (64, 100)
+len(SELECTED_FEATURES) is 100
+SELECTED_FEATURES is tensor([False, False, False, False, False,  True, False,  True,  True, False,
+        False, False, False, False, False, False, False,  True,  True, False,
+        False,  True, False, False, False, False, False, False, False,  True,
+        False, False, False, False, False, False, False, False, False, False,
+        False, False,  True, False,  True, False, False, False, False, False,
+        False, False, False, False, False, False, False, False, False, False,
+        False, False, False, False, False, False, False, False, False, False,
+        False, False, False, False, False, False, False, False, False, False,
+        False, False, False,  True, False, False, False, False, False, False,
+        False, False, False, False, False, False, False, False, False, False])
+SELECTED_FEATURES.sum() is 10
+SELECTED_FEATURES.sum().item() is 10
+Average sparsity: 0.1
+calculating cross entropy loss for categorical response
+loss is 0.4215756019228138
+loss_baseline is 0.33699879468570276
+Relative loss: 1.251
+Test accuracy in n=100, p=100, k=10, type=binary: [0.65, 0.65]
+Duration for running in the setting n=100, p=100, k=10, type=binary: 19.590564966201782 seconds
+INFO:__main__:Simulation completed successfully
+#########################################
+################ n=1000, p=100, k=10, type=continuous ################
+#########################################
+INFO:__main__:Starting simulation: n=1000, p=100, k=10, type=continuous
+X_train.shape: (640, 100), X_val.shape: (160, 100), X_test.shape: (200, 100)
+y_train.shape: (640,), y_val.shape: (160,), y_test.shape: (200,)
+Number of selected features in the setting n=1000, p=100, k=10: 10
+X_train.shape is (640, 100)
+len(SELECTED_FEATURES) is 100
+SELECTED_FEATURES is tensor([False, False, False, False,  True, False, False, False, False, False,
+        False, False, False,  True, False, False, False, False, False, False,
+         True, False, False, False, False, False,  True, False, False, False,
+         True, False, False, False, False, False, False, False, False,  True,
+        False, False, False, False, False, False, False, False, False, False,
+         True, False, False, False, False, False, False, False, False, False,
+         True, False,  True, False, False, False, False, False, False, False,
+        False, False, False, False, False, False, False, False, False, False,
+        False, False, False, False, False, False, False, False, False, False,
+        False, False, False, False, False,  True, False, False, False, False])
+SELECTED_FEATURES.sum() is 10
+SELECTED_FEATURES.sum().item() is 10
+Average sparsity: 0.1
+loss is 0.8969212824202085
+loss_baseline is 18.854069086419578
+Mean of predictions: 0.177826926112175
+Std of predictions: 4.309675693511963
+Mean of true values: 0.15130696562309617
+Std of true values: 4.336757620751474
+Relative loss: 0.048
+Test R2 score in n=1000, p=100, k=10, type=continuous: [0.7904076935466294, 0.9523103616994232]
+WARNING:root:Two scores are not the same: [0.7904076935466294, 0.9523103616994232]
+Duration for running in the setting n=1000, p=100, k=10, type=continuous: 21.410763025283813 seconds
+INFO:__main__:Simulation completed successfully
+#########################################
+################ n=1000, p=100, k=10, type=binary ################
+#########################################
+INFO:__main__:Starting simulation: n=1000, p=100, k=10, type=binary
+X_train.shape: (640, 100), X_val.shape: (160, 100), X_test.shape: (200, 100)
+y_train.shape: (640,), y_val.shape: (160,), y_test.shape: (200,)
+Number of selected features in the setting n=1000, p=100, k=10: 10
+X_train.shape is (640, 100)
+len(SELECTED_FEATURES) is 100
+SELECTED_FEATURES is tensor([False, False, False, False,  True, False, False, False, False, False,
+        False, False, False,  True, False, False, False, False, False, False,
+         True,  True, False, False, False, False,  True, False, False, False,
+         True, False, False, False, False, False, False, False, False,  True,
+        False, False, False, False, False, False, False, False, False, False,
+        False, False, False, False, False, False, False, False, False, False,
+         True, False,  True, False, False, False, False, False, False, False,
+        False, False, False, False, False, False, False, False, False, False,
+        False, False, False, False, False, False, False, False, False, False,
+        False, False, False, False, False,  True, False, False, False, False])
+SELECTED_FEATURES.sum() is 10
+SELECTED_FEATURES.sum().item() is 10
+Average sparsity: 0.1
+calculating cross entropy loss for categorical response
+loss is 0.12918964052191087
+loss_baseline is 0.34659556390187446
+Relative loss: 0.373
+Test accuracy in n=1000, p=100, k=10, type=binary: [0.88, 0.88]
+Duration for running in the setting n=1000, p=100, k=10, type=binary: 28.87068796157837 seconds
+INFO:__main__:Simulation completed successfully
+#########################################
+################ n=10000, p=100, k=10, type=continuous ################
+#########################################
+INFO:__main__:Starting simulation: n=10000, p=100, k=10, type=continuous
+X_train.shape: (6400, 100), X_val.shape: (1600, 100), X_test.shape: (2000, 100)
+y_train.shape: (6400,), y_val.shape: (1600,), y_test.shape: (2000,)
+/Users/amber/opt/anaconda3/envs/lassonet2/lib/python3.9/site-packages/lassonet/interfaces.py:486: UserWarning: lambda_start=0.001 (selected automatically) might be too large.
+Features start to disappear at current_lambda=0.001.
+  warnings.warn(
+Number of selected features in the setting n=10000, p=100, k=10: 10
+X_train.shape is (6400, 100)
+len(SELECTED_FEATURES) is 100
+SELECTED_FEATURES is tensor([False, False, False, False, False, False,  True, False, False,  True,
+        False, False, False,  True, False, False, False, False, False, False,
+        False, False, False, False, False, False, False, False,  True, False,
+        False, False, False, False, False, False, False, False, False, False,
+        False, False, False,  True, False,  True, False, False, False, False,
+        False, False, False, False, False, False, False, False, False, False,
+        False, False, False, False,  True, False, False, False,  True, False,
+        False, False, False, False, False, False, False, False, False, False,
+        False, False, False, False, False, False,  True, False,  True, False,
+        False, False, False, False, False, False, False, False, False, False])
+SELECTED_FEATURES.sum() is 10
+SELECTED_FEATURES.sum().item() is 10
+Average sparsity: 0.1
+loss is 1.0066337973744524
+loss_baseline is 21.304612345834933
+Mean of predictions: -0.12720544636249542
+Std of predictions: 4.404352188110352
+Mean of true values: -0.10307402401401569
+Std of true values: 4.615272870765785
+Relative loss: 0.047
+Test R2 score in n=10000, p=100, k=10, type=continuous: [0.7462260567765, 0.9527418472851104]
+WARNING:root:Two scores are not the same: [0.7462260567765, 0.9527418472851104]
+Duration for running in the setting n=10000, p=100, k=10, type=continuous: 183.8921082019806 seconds
+INFO:__main__:Simulation completed successfully
+#########################################
+################ n=10000, p=100, k=10, type=binary ################
+#########################################
+INFO:__main__:Starting simulation: n=10000, p=100, k=10, type=binary
+X_train.shape: (6400, 100), X_val.shape: (1600, 100), X_test.shape: (2000, 100)
+y_train.shape: (6400,), y_val.shape: (1600,), y_test.shape: (2000,)
+Number of selected features in the setting n=10000, p=100, k=10: 10
+X_train.shape is (6400, 100)
+len(SELECTED_FEATURES) is 100
+SELECTED_FEATURES is tensor([False, False, False, False, False, False,  True, False,  True,  True,
+        False, False, False,  True, False, False, False, False, False, False,
+        False, False, False, False, False, False, False, False,  True, False,
+        False, False, False, False, False, False, False, False, False, False,
+        False, False, False,  True, False,  True, False, False, False, False,
+        False, False, False, False, False, False, False, False, False, False,
+        False, False, False, False,  True, False, False, False, False, False,
+        False, False, False, False, False, False, False, False, False, False,
+        False, False, False, False, False, False,  True, False,  True, False,
+        False, False, False, False, False, False, False, False, False, False])
+SELECTED_FEATURES.sum() is 10
+SELECTED_FEATURES.sum().item() is 10
+Average sparsity: 0.1
+calculating cross entropy loss for categorical response
+loss is 0.13099446292718261
+loss_baseline is 0.3465035883631993
+Relative loss: 0.378
+Test accuracy in n=10000, p=100, k=10, type=binary: [0.885, 0.885]
+Duration for running in the setting n=10000, p=100, k=10, type=binary: 247.79169702529907 seconds
+INFO:__main__:Simulation completed successfully
+INFO:__main__:Duration for running lassonet simulations: 1050.159420 seconds

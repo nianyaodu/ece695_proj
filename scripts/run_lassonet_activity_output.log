@@ -1,0 +1,23 @@
+#########################################
+################ dataset=Activity, response_type=categorical ################
+#########################################
+INFO:__main__:Starting processing for Activity
+loading activity
+Data loaded...
+Data shapes:
+(7352, 561) (7352,)
+(2947, 561) (2947,)
+/Users/amber/opt/anaconda3/envs/lassonet2/lib/python3.9/site-packages/lassonet/interfaces.py:486: UserWarning: lambda_start=1.638 (selected automatically) might be too large.
+Features start to disappear at current_lambda=2.294.
+  warnings.warn(
+Number of selected features in Activity: 39
+Average sparsity: 0.07
+2
+calculating cross entropy loss for categorical response
+loss is 0.030987613640628433
+loss_baseline is 0.29836261051889673
+Relative loss: 0.104
+Test accuracy in Activity, type=categorical: [0.9300984051577876, 0.9300984051577876]
+Duration for running Activity, type=categorical: 3416.705418109894 seconds
+INFO:__main__:Successfully completed Activity
+INFO:__main__:Duration for running lassonet: 3416.708454 seconds

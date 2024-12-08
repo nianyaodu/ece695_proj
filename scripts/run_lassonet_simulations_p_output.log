@@ -1,0 +1,492 @@
+#########################################
+################ n=100, p=500, k=10, type=continuous ################
+#########################################
+INFO:__main__:Starting simulation: n=100, p=500, k=10, type=continuous
+X_train.shape: (64, 500), X_val.shape: (16, 500), X_test.shape: (20, 500)
+y_train.shape: (64,), y_val.shape: (16,), y_test.shape: (20,)
+Number of selected features in the setting n=100, p=500, k=10: 10
+X_train.shape is (64, 500)
+len(SELECTED_FEATURES) is 500
+SELECTED_FEATURES is tensor([False, False, False, False, False, False, False, False, False, False,
+        False, False, False, False, False, False, False, False, False, False,
+        False, False, False, False, False, False, False, False, False, False,
+        False, False,  True, False, False, False, False, False, False, False,
+        False, False, False, False, False, False, False, False, False, False,
+        False, False, False, False, False, False, False, False, False, False,
+        False, False, False, False, False, False, False, False, False, False,
+        False, False, False, False, False, False, False, False, False, False,
+        False, False, False, False, False, False, False, False,  True,  True,
+        False, False, False, False, False, False, False, False, False, False,
+        False, False, False, False, False, False, False,  True, False, False,
+        False, False, False,  True, False, False, False, False, False, False,
+        False, False, False, False, False, False, False, False, False, False,
+        False, False, False, False, False, False, False, False, False, False,
+        False, False, False, False, False, False, False, False, False, False,
+        False, False, False, False, False, False, False, False, False, False,
+        False, False, False, False, False, False, False, False, False, False,
+        False, False, False, False, False, False, False, False, False, False,
+        False, False, False, False, False, False, False, False, False, False,
+        False, False, False, False, False, False, False, False, False, False,
+        False, False, False, False, False, False, False, False, False, False,
+        False, False, False, False, False, False, False, False, False, False,
+        False, False, False, False, False, False, False, False,  True, False,
+        False, False, False, False, False, False, False, False, False, False,
+        False, False, False, False, False, False, False, False, False, False,
+        False, False, False, False, False, False, False, False, False, False,
+        False, False, False, False, False, False, False, False, False, False,
+        False, False, False, False, False, False, False, False, False,  True,
+        False, False, False, False, False, False, False, False, False, False,
+        False, False, False, False, False, False,  True, False, False, False,
+        False, False, False, False, False, False, False, False, False, False,
+        False, False, False, False, False, False, False,  True, False, False,
+        False, False, False, False, False, False, False, False, False, False,
+        False, False, False, False, False, False, False, False, False, False,
+        False, False, False, False, False, False, False, False, False, False,
+        False, False, False, False, False, False, False, False, False, False,
+        False, False, False, False, False, False, False, False, False, False,
+        False, False, False, False, False, False, False, False, False, False,
+        False, False, False, False, False,  True, False, False, False, False,
+        False, False, False, False, False, False, False, False, False, False,
+        False, False, False, False, False, False, False, False, False, False,
+        False, False, False, False, False, False, False, False, False, False,
+        False, False, False, False, False, False, False, False, False, False,
+        False, False, False, False, False, False, False, False, False, False,
+        False, False, False, False, False, False, False, False, False, False,
+        False, False, False, False, False, False, False, False, False, False,
+        False, False, False, False, False, False, False, False, False, False,
+        False, False, False, False, False, False, False, False, False, False,
+        False, False, False, False, False, False, False, False, False, False,
+        False, False, False, False, False, False, False, False, False, False])
+SELECTED_FEATURES.sum() is 10
+SELECTED_FEATURES.sum().item() is 10
+Average sparsity: 0.02
+loss is 9.370715735845717
+loss_baseline is 11.487652339567168
+Mean of predictions: -0.37400487065315247
+Std of predictions: 1.181642770767212
+Mean of true values: -0.5479711325931331
+Std of true values: 3.3867342643234735
+Relative loss: 0.816
+Test R2 score in n=100, p=500, k=10, type=continuous: [-0.09357045218000826, 0.1830217017570258]
+WARNING:root:Two scores are not the same: [-0.09357045218000826, 0.1830217017570258]
+Duration for running in the setting n=100, p=500, k=10, type=continuous: 36.53737211227417 seconds
+INFO:__main__:Simulation completed successfully
+#########################################
+################ n=100, p=500, k=10, type=binary ################
+#########################################
+INFO:__main__:Starting simulation: n=100, p=500, k=10, type=binary
+X_train.shape: (64, 500), X_val.shape: (16, 500), X_test.shape: (20, 500)
+y_train.shape: (64,), y_val.shape: (16,), y_test.shape: (20,)
+/Users/amber/opt/anaconda3/envs/lassonet2/lib/python3.9/site-packages/lassonet/interfaces.py:486: UserWarning: lambda_start=13.107 (selected automatically) might be too large.
+Features start to disappear at current_lambda=20.263.
+  warnings.warn(
+Number of selected features in the setting n=100, p=500, k=10: 9
+X_train.shape is (64, 500)
+len(SELECTED_FEATURES) is 500
+SELECTED_FEATURES is tensor([False, False, False, False, False, False, False, False, False, False,
+        False, False, False, False, False, False, False, False, False, False,
+        False, False, False, False, False, False, False, False, False, False,
+        False, False, False, False, False, False, False, False, False, False,
+        False, False, False, False, False, False, False, False, False, False,
+        False, False, False, False, False, False,  True,  True, False, False,
+        False, False, False, False, False, False, False, False, False, False,
+        False, False, False, False, False, False, False, False, False, False,
+        False, False, False, False, False, False, False, False,  True,  True,
+        False, False, False, False, False, False, False, False, False, False,
+        False,  True, False, False, False, False, False, False, False, False,
+        False, False, False, False, False, False, False, False, False, False,
+        False, False, False, False, False, False, False, False, False, False,
+        False, False, False, False, False, False, False, False, False, False,
+        False, False, False, False, False, False, False, False, False, False,
+        False, False, False, False, False, False, False, False, False, False,
+        False, False, False, False, False, False, False, False, False, False,
+        False, False, False, False, False, False, False, False, False, False,
+        False, False, False, False, False, False, False, False, False, False,
+        False, False, False, False, False, False, False, False, False, False,
+        False, False, False, False, False, False, False, False, False, False,
+        False, False, False, False, False, False, False, False, False, False,
+        False, False, False, False, False, False, False, False,  True, False,
+        False, False, False, False, False, False, False, False, False, False,
+        False, False, False, False, False, False, False, False, False, False,
+        False, False, False, False, False, False, False, False, False, False,
+        False, False, False, False, False, False, False, False, False, False,
+        False, False, False, False, False, False, False, False, False, False,
+        False, False, False, False, False, False, False, False, False, False,
+        False, False, False, False, False,  True, False, False, False, False,
+        False, False, False, False, False, False, False, False, False, False,
+        False, False, False, False, False, False, False, False, False, False,
+        False, False, False, False, False, False, False, False, False, False,
+        False, False, False, False, False, False, False, False, False, False,
+        False, False, False, False, False, False, False, False, False, False,
+        False, False, False, False, False, False, False, False, False, False,
+        False, False, False, False, False, False, False, False, False, False,
+        False, False, False, False, False, False, False, False, False, False,
+        False, False, False, False, False, False, False, False, False, False,
+        False, False, False, False, False, False, False, False, False, False,
+        False, False, False, False, False, False, False, False, False, False,
+        False, False, False, False, False, False, False, False,  True, False,
+        False, False, False, False, False, False, False, False, False, False,
+        False, False, False, False, False, False, False, False, False, False,
+        False, False, False, False, False, False, False, False, False, False,
+        False, False, False, False, False, False, False, False, False, False,
+        False, False, False, False, False, False, False, False, False, False,
+        False, False, False, False, False, False, False, False, False,  True,
+        False, False, False, False, False, False, False, False, False, False,
+        False, False, False, False, False, False, False, False, False, False])
+SELECTED_FEATURES.sum() is 9
+SELECTED_FEATURES.sum().item() is 9
+Average sparsity: 0.018
+calculating cross entropy loss for categorical response
+loss is 0.440340931659739
+loss_baseline is 0.3270591456150012
+Relative loss: 1.346
+Test accuracy in n=100, p=500, k=10, type=binary: [0.55, 0.55]
+Duration for running in the setting n=100, p=500, k=10, type=binary: 85.90905594825745 seconds
+INFO:__main__:Simulation completed successfully
+#########################################
+################ n=100, p=500, k=20, type=continuous ################
+#########################################
+INFO:__main__:Starting simulation: n=100, p=500, k=20, type=continuous
+X_train.shape: (64, 500), X_val.shape: (16, 500), X_test.shape: (20, 500)
+y_train.shape: (64,), y_val.shape: (16,), y_test.shape: (20,)
+Number of selected features in the setting n=100, p=500, k=20: 20
+X_train.shape is (64, 500)
+len(SELECTED_FEATURES) is 500
+SELECTED_FEATURES is tensor([False, False, False, False, False, False, False, False, False, False,
+        False, False, False, False, False, False, False, False, False, False,
+        False, False, False, False,  True, False, False, False, False, False,
+        False, False, False, False, False, False, False, False, False, False,
+        False, False, False, False, False, False, False, False, False, False,
+        False, False, False, False, False, False, False, False, False,  True,
+        False, False, False, False, False, False, False, False, False, False,
+        False, False, False, False, False, False, False, False, False, False,
+        False, False, False, False, False, False, False, False, False, False,
+        False, False, False, False, False, False, False, False, False, False,
+        False, False, False, False, False, False, False,  True, False, False,
+        False, False, False, False, False, False, False, False, False, False,
+        False, False, False, False, False, False, False, False, False, False,
+        False, False, False, False, False, False, False, False, False, False,
+        False, False, False, False, False, False, False, False, False, False,
+        False, False, False, False, False, False, False,  True, False, False,
+        False, False, False, False, False, False, False, False, False, False,
+        False, False, False, False, False, False, False, False, False, False,
+        False, False, False, False,  True, False, False, False, False, False,
+        False, False, False, False, False, False, False, False, False, False,
+        False, False, False, False, False,  True, False, False, False, False,
+        False, False, False, False, False, False, False, False, False, False,
+        False, False, False, False, False, False, False, False, False, False,
+        False, False, False, False, False, False, False, False, False, False,
+        False, False, False,  True, False, False, False, False, False, False,
+        False, False, False, False, False, False, False, False, False, False,
+        False, False, False, False, False, False, False, False, False, False,
+        False, False, False, False, False, False, False, False,  True, False,
+        False, False, False, False, False, False, False, False, False, False,
+        False, False, False, False, False, False,  True, False, False, False,
+        False, False, False, False, False, False, False, False, False, False,
+        False, False, False, False, False, False, False,  True, False, False,
+        False, False, False, False, False, False, False, False, False, False,
+        False, False, False, False, False, False, False,  True, False, False,
+        False, False, False, False, False, False, False, False,  True, False,
+        False, False,  True, False, False, False, False, False, False, False,
+        False, False, False, False, False, False, False, False, False, False,
+        False, False, False, False, False, False, False, False, False, False,
+        False, False, False, False, False, False, False, False,  True, False,
+        False, False, False, False, False, False, False, False, False, False,
+        False, False, False, False, False, False, False, False, False, False,
+        False, False, False, False, False, False, False, False, False, False,
+        False,  True, False, False, False, False, False, False, False, False,
+        False, False, False,  True, False, False, False, False, False, False,
+        False, False, False, False, False, False, False, False, False, False,
+        False, False, False, False, False, False, False, False, False, False,
+         True, False,  True, False, False, False, False, False, False, False,
+        False, False, False, False, False, False, False, False,  True,  True,
+        False, False, False, False, False, False, False, False, False, False,
+        False, False, False, False, False, False, False, False, False, False])
+SELECTED_FEATURES.sum() is 20
+SELECTED_FEATURES.sum().item() is 20
+Average sparsity: 0.04
+loss is 33.89967361621774
+loss_baseline is 35.5616672230576
+Mean of predictions: -0.5964442491531372
+Std of predictions: 1.095851182937622
+Mean of true values: 0.26500144423418626
+Std of true values: 5.83761917865585
+Relative loss: 0.953
+Test R2 score in n=100, p=500, k=20, type=continuous: [0.004584773059444269, 0.005226982696815652]
+WARNING:root:Two scores are not the same: [0.004584773059444269, 0.005226982696815652]
+Duration for running in the setting n=100, p=500, k=20, type=continuous: 76.09952807426453 seconds
+INFO:__main__:Simulation completed successfully
+#########################################
+################ n=100, p=500, k=20, type=binary ################
+#########################################
+INFO:__main__:Starting simulation: n=100, p=500, k=20, type=binary
+X_train.shape: (64, 500), X_val.shape: (16, 500), X_test.shape: (20, 500)
+y_train.shape: (64,), y_val.shape: (16,), y_test.shape: (20,)
+/Users/amber/opt/anaconda3/envs/lassonet2/lib/python3.9/site-packages/lassonet/interfaces.py:486: UserWarning: lambda_start=13.107 (selected automatically) might be too large.
+Features start to disappear at current_lambda=20.669.
+  warnings.warn(
+Number of selected features in the setting n=100, p=500, k=20: 20
+X_train.shape is (64, 500)
+len(SELECTED_FEATURES) is 500
+SELECTED_FEATURES is tensor([False, False, False, False, False, False,  True, False, False, False,
+        False, False, False, False, False, False, False,  True, False, False,
+        False, False, False, False,  True, False, False, False, False, False,
+        False, False, False, False, False, False, False, False, False, False,
+        False, False, False, False, False, False, False, False, False, False,
+        False, False, False, False, False, False, False, False, False, False,
+        False, False, False, False, False, False, False, False,  True, False,
+        False, False, False, False, False, False, False, False, False, False,
+        False, False, False, False, False, False, False, False, False, False,
+        False, False, False, False, False, False, False, False, False, False,
+        False, False,  True, False, False, False, False, False, False, False,
+        False, False, False, False, False, False, False, False, False, False,
+        False, False, False, False, False, False, False, False, False,  True,
+        False, False, False, False, False, False, False, False, False, False,
+        False, False, False, False, False, False, False, False, False, False,
+        False, False, False, False, False, False, False,  True, False, False,
+         True, False, False, False, False, False, False, False, False, False,
+        False, False, False, False, False, False, False, False, False, False,
+        False, False, False, False, False,  True, False, False, False, False,
+        False, False, False, False, False, False, False, False, False, False,
+        False, False, False, False, False, False, False, False, False, False,
+        False, False,  True, False, False, False, False, False, False, False,
+        False, False, False, False, False, False, False, False, False, False,
+        False, False, False, False, False, False, False, False, False, False,
+        False, False, False,  True, False, False, False, False, False, False,
+        False, False, False, False, False, False, False, False, False, False,
+        False, False, False, False, False, False, False, False,  True, False,
+        False, False, False, False, False, False, False, False, False, False,
+        False, False, False, False, False, False, False, False, False, False,
+        False, False, False, False, False, False, False, False,  True, False,
+        False, False, False, False, False, False, False, False, False, False,
+        False, False, False, False, False, False, False,  True, False, False,
+        False, False, False, False, False, False, False, False, False, False,
+        False, False, False, False, False, False, False, False, False, False,
+        False, False, False, False, False, False, False, False, False, False,
+        False, False, False, False, False, False, False, False, False, False,
+        False, False, False, False, False, False, False, False, False, False,
+        False, False, False, False, False, False, False, False, False, False,
+        False, False, False, False, False, False, False, False, False, False,
+        False, False, False, False, False, False, False, False, False, False,
+        False, False, False, False, False, False, False, False, False,  True,
+        False, False, False, False, False, False, False,  True, False, False,
+        False,  True, False, False, False, False, False, False, False, False,
+        False, False, False, False, False, False, False, False, False, False,
+        False, False, False,  True, False, False, False, False, False, False,
+        False,  True, False, False, False, False, False, False, False, False,
+        False, False, False, False, False, False, False, False, False, False,
+        False, False, False, False, False, False, False, False, False, False,
+        False, False, False, False, False, False, False, False, False, False,
+         True, False, False, False, False, False, False, False, False, False])
+SELECTED_FEATURES.sum() is 20
+SELECTED_FEATURES.sum().item() is 20
+Average sparsity: 0.04
+calculating cross entropy loss for categorical response
+loss is 0.7485993901107577
+loss_baseline is 0.348780568810864
+Relative loss: 2.146
+Test accuracy in n=100, p=500, k=20, type=binary: [0.55, 0.55]
+Duration for running in the setting n=100, p=500, k=20, type=binary: 128.30161595344543 seconds
+INFO:__main__:Simulation completed successfully
+#########################################
+################ n=100, p=500, k=50, type=continuous ################
+#########################################
+INFO:__main__:Starting simulation: n=100, p=500, k=50, type=continuous
+X_train.shape: (64, 500), X_val.shape: (16, 500), X_test.shape: (20, 500)
+y_train.shape: (64,), y_val.shape: (16,), y_test.shape: (20,)
+Number of selected features in the setting n=100, p=500, k=50: 50
+X_train.shape is (64, 500)
+len(SELECTED_FEATURES) is 500
+SELECTED_FEATURES is tensor([False,  True, False, False, False, False, False, False, False, False,
+        False, False, False,  True, False, False, False, False, False,  True,
+         True, False, False, False, False, False, False, False, False, False,
+        False, False,  True, False, False, False, False, False,  True, False,
+        False, False, False, False, False, False, False, False, False, False,
+        False, False, False, False, False, False, False, False, False, False,
+        False, False, False, False, False, False, False, False, False, False,
+        False,  True, False, False, False, False, False, False, False, False,
+        False, False, False, False, False, False, False, False, False, False,
+         True, False, False, False, False,  True, False,  True, False, False,
+        False, False, False, False, False, False, False, False, False, False,
+        False, False, False, False, False, False, False, False, False, False,
+        False, False, False,  True, False, False, False, False, False,  True,
+         True,  True, False, False, False, False, False, False, False, False,
+         True, False, False, False, False, False, False, False, False, False,
+         True, False, False, False,  True, False, False,  True, False, False,
+        False, False, False, False, False, False, False, False, False, False,
+        False, False, False, False, False, False, False, False,  True, False,
+        False, False, False, False, False, False,  True, False, False, False,
+        False, False, False, False, False, False, False, False, False, False,
+        False, False, False, False, False,  True, False, False, False, False,
+        False, False, False, False, False, False, False, False, False, False,
+        False,  True, False, False, False, False, False, False,  True, False,
+        False, False, False, False, False, False, False, False, False, False,
+        False, False, False, False, False, False, False, False, False,  True,
+        False, False, False, False, False, False, False, False, False, False,
+        False, False, False, False, False, False, False, False, False, False,
+        False, False, False, False, False,  True, False, False, False, False,
+        False, False, False, False, False, False, False, False, False, False,
+        False, False, False, False, False, False,  True, False, False, False,
+        False, False, False, False,  True, False, False, False, False, False,
+        False, False, False, False, False, False, False,  True, False, False,
+        False, False, False, False, False, False, False, False, False, False,
+        False, False, False, False,  True, False, False, False, False, False,
+        False, False, False, False, False, False, False, False,  True, False,
+         True,  True, False, False, False, False, False, False, False, False,
+        False, False, False, False, False, False, False, False, False,  True,
+        False, False, False, False,  True, False, False, False, False, False,
+        False,  True, False, False, False, False, False, False,  True, False,
+        False,  True,  True, False,  True, False,  True, False, False, False,
+        False, False, False, False, False, False, False, False, False, False,
+        False, False,  True, False, False, False, False, False, False,  True,
+        False,  True, False, False, False, False, False, False, False, False,
+         True,  True, False, False, False, False, False, False, False, False,
+        False, False, False,  True, False, False, False, False, False, False,
+        False,  True, False, False, False,  True, False, False,  True, False,
+         True, False, False, False, False, False, False, False, False, False,
+        False, False, False, False, False, False, False, False, False, False,
+        False, False, False, False, False, False, False, False, False, False,
+        False, False, False, False, False, False, False, False, False, False])
+SELECTED_FEATURES.sum() is 50
+SELECTED_FEATURES.sum().item() is 50
+Average sparsity: 0.1
+loss is 110.35891510428526
+loss_baseline is 116.83051699499144
+Mean of predictions: -1.4580466747283936
+Std of predictions: 1.307554006576538
+Mean of true values: 0.36766403401371744
+Std of true values: 10.726912160938625
+Relative loss: 0.945
+Test R2 score in n=100, p=500, k=50, type=continuous: [-0.02312037446740489, 0.040913067590670926]
+WARNING:root:Two scores are not the same: [-0.02312037446740489, 0.040913067590670926]
+Duration for running in the setting n=100, p=500, k=50, type=continuous: 90.28450298309326 seconds
+INFO:__main__:Simulation completed successfully
+#########################################
+################ n=100, p=500, k=50, type=binary ################
+#########################################
+INFO:__main__:Starting simulation: n=100, p=500, k=50, type=binary
+X_train.shape: (64, 500), X_val.shape: (16, 500), X_test.shape: (20, 500)
+y_train.shape: (64,), y_val.shape: (16,), y_test.shape: (20,)
+/Users/amber/opt/anaconda3/envs/lassonet2/lib/python3.9/site-packages/lassonet/interfaces.py:486: UserWarning: lambda_start=13.107 (selected automatically) might be too large.
+Features start to disappear at current_lambda=20.669.
+  warnings.warn(
+Number of selected features in the setting n=100, p=500, k=50: 50
+X_train.shape is (64, 500)
+len(SELECTED_FEATURES) is 500
+SELECTED_FEATURES is tensor([False,  True, False,  True, False, False, False, False, False, False,
+        False,  True, False,  True, False, False, False, False, False,  True,
+         True, False, False, False, False, False, False, False, False, False,
+        False, False, False, False, False, False, False, False, False, False,
+        False, False, False, False, False, False, False, False,  True, False,
+        False, False, False, False, False,  True, False, False, False, False,
+        False, False, False, False, False, False, False, False, False, False,
+        False,  True, False, False, False, False, False, False, False, False,
+        False, False, False, False, False, False, False, False, False, False,
+        False, False, False, False, False, False, False, False,  True, False,
+        False, False, False, False, False, False, False, False, False, False,
+        False, False, False, False, False, False, False, False, False, False,
+        False, False, False, False, False, False, False, False, False, False,
+        False,  True, False, False, False,  True, False, False, False, False,
+        False, False, False, False, False, False, False, False, False, False,
+        False, False, False, False, False, False,  True,  True, False, False,
+        False, False, False, False, False, False, False, False, False, False,
+        False, False, False, False, False, False, False, False,  True, False,
+        False, False, False, False, False, False, False, False, False, False,
+        False, False, False, False, False, False, False, False, False, False,
+        False, False, False, False, False, False, False, False, False, False,
+        False, False, False, False, False, False, False, False, False, False,
+        False,  True, False, False, False, False, False,  True, False, False,
+        False, False, False, False, False, False, False, False, False, False,
+        False, False, False, False, False, False, False, False, False, False,
+        False, False, False, False, False, False, False, False, False, False,
+        False, False, False, False, False, False, False, False, False, False,
+        False, False, False, False, False, False, False, False, False, False,
+        False, False, False, False, False, False, False, False, False, False,
+        False, False, False, False, False, False, False, False, False, False,
+        False, False,  True, False,  True,  True,  True, False, False, False,
+        False,  True, False,  True,  True, False,  True,  True, False, False,
+        False, False, False, False, False, False,  True, False, False, False,
+        False, False, False, False,  True,  True, False, False, False, False,
+        False, False, False, False, False,  True, False, False, False,  True,
+         True,  True, False, False,  True, False, False, False, False, False,
+        False, False, False, False, False, False, False, False, False, False,
+        False, False, False, False, False,  True, False, False, False, False,
+        False,  True, False, False, False, False, False, False, False, False,
+        False, False, False, False, False,  True, False, False, False, False,
+        False, False, False, False,  True, False, False, False, False, False,
+        False, False,  True, False, False, False, False, False, False, False,
+        False,  True, False,  True, False, False, False, False,  True, False,
+         True,  True, False,  True, False, False, False, False, False, False,
+        False, False, False, False, False, False, False, False, False, False,
+        False, False, False,  True, False, False, False, False,  True, False,
+         True, False, False, False, False, False, False, False, False, False,
+        False,  True, False, False, False, False, False, False, False, False,
+        False, False, False, False, False, False, False, False, False, False,
+        False, False, False,  True, False, False, False, False, False, False])
+SELECTED_FEATURES.sum() is 50
+SELECTED_FEATURES.sum().item() is 50
+Average sparsity: 0.1
+calculating cross entropy loss for categorical response
+loss is 0.995286032668082
+loss_baseline is 0.35275284701769755
+Relative loss: 2.821
+Test accuracy in n=100, p=500, k=50, type=binary: [0.45, 0.45]
+Duration for running in the setting n=100, p=500, k=50, type=binary: 128.6425268650055 seconds
+INFO:__main__:Simulation completed successfully
+#########################################
+################ n=1000, p=3000, k=100, type=continuous ################
+#########################################
+INFO:__main__:Starting simulation: n=1000, p=3000, k=100, type=continuous
+X_train.shape: (640, 3000), X_val.shape: (160, 3000), X_test.shape: (200, 3000)
+y_train.shape: (640,), y_val.shape: (160,), y_test.shape: (200,)
+/Users/amber/opt/anaconda3/envs/lassonet2/lib/python3.9/site-packages/lassonet/interfaces.py:486: UserWarning: lambda_start=0.001 (selected automatically) might be too large.
+Features start to disappear at current_lambda=0.001.
+  warnings.warn(
+Number of selected features in the setting n=1000, p=3000, k=100: 100
+X_train.shape is (640, 3000)
+len(SELECTED_FEATURES) is 3000
+SELECTED_FEATURES is tensor([ True, False, False,  ..., False, False, False])
+SELECTED_FEATURES.sum() is 100
+SELECTED_FEATURES.sum().item() is 100
+Average sparsity: 0.033
+loss is 3.627271703773837
+loss_baseline is 128.63066111379823
+Mean of predictions: 0.32757171988487244
+Std of predictions: 10.963494300842285
+Mean of true values: 0.4250518804654048
+Std of true values: 11.301653120816413
+Relative loss: 0.028
+Test R2 score in n=1000, p=3000, k=100, type=continuous: [0.7340573681306342, 0.9716014516302379]
+WARNING:root:Two scores are not the same: [0.7340573681306342, 0.9716014516302379]
+ERROR:__main__:Error in simulation: [Errno 28] No space left on device
+#########################################
+################ n=1000, p=3000, k=100, type=binary ################
+#########################################
+INFO:__main__:Starting simulation: n=1000, p=3000, k=100, type=binary
+X_train.shape: (640, 3000), X_val.shape: (160, 3000), X_test.shape: (200, 3000)
+y_train.shape: (640,), y_val.shape: (160,), y_test.shape: (200,)
+/Users/amber/opt/anaconda3/envs/lassonet2/lib/python3.9/site-packages/lassonet/interfaces.py:486: UserWarning: lambda_start=52.429 (selected automatically) might be too large.
+Features start to disappear at current_lambda=52.429.
+  warnings.warn(
+Number of selected features in the setting n=1000, p=3000, k=100: 95
+X_train.shape is (640, 3000)
+len(SELECTED_FEATURES) is 3000
+SELECTED_FEATURES is tensor([ True, False, False,  ..., False, False, False])
+SELECTED_FEATURES.sum() is 95
+SELECTED_FEATURES.sum().item() is 95
+Average sparsity: 0.032
+calculating cross entropy loss for categorical response
+loss is 0.4174283894471516
+loss_baseline is 0.34674840358721115
+Relative loss: 1.204
+Test accuracy in n=1000, p=3000, k=100, type=binary: [0.765, 0.765]
+ERROR:__main__:Error in simulation: [Errno 28] No space left on device
+#########################################
+################ n=1000, p=3000, k=200, type=continuous ################
+#########################################
+INFO:__main__:Starting simulation: n=1000, p=3000, k=200, type=continuous
+X_train.shape: (640, 3000), X_val.shape: (160, 3000), X_test.shape: (200, 3000)
+y_train.shape: (640,), y_val.shape: (160,), y_test.shape: (200,)
+/Users/amber/opt/anaconda3/envs/lassonet2/lib/python3.9/site-packages/lassonet/interfaces.py:486: UserWarning: lambda_start=0.001 (selected automatically) might be too large.
+Features start to disappear at current_lambda=0.001.
+  warnings.warn(

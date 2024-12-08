@@ -1,0 +1,4 @@
+INFO:__main__:Starting processing for grnn
+ERROR:__main__:Error processing grnn: (slice(None, 100, None),)
+INFO:__main__:Duration for running grnn: 0.119640 seconds
+Loading California Housing's dataset...

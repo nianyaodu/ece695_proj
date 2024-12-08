@@ -1,0 +1,11 @@
+test/test14.py: line 3: 
+https://github.com/lasso-net/lassonet/blob/master/examples/diabetes.py
+: No such file or directory
+test/test14.py: line 6: import: command not found
+test/test14.py: line 7: import: command not found
+test/test14.py: line 8: from: command not found
+test/test14.py: line 9: from: command not found
+test/test14.py: line 10: from: command not found
+test/test14.py: line 12: from: command not found
+test/test14.py: line 14: syntax error near unexpected token `('
+test/test14.py: line 14: `dataset = load_diabetes()'

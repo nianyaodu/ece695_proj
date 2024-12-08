@@ -1,0 +1,121 @@
+INFO:__main__:Starting processing for MNIST
+#########################################
+################ dataset=MNIST, response_type=categorical ################
+#########################################
+Block HSIC Lasso B = 20.
+M set to 3.
+Using Gaussian kernel for the features, Delta kernel for the outcomes.
+/Users/amber/opt/anaconda3/envs/hsic_lasso/lib/python3.9/site-packages/seaborn/matrix.py:560: UserWarning: Clustering large matrix with scipy. Installing `fastcluster` may give better performance.
+  warnings.warn(msg)
+INFO:__main__:Successfully completed MNIST
+INFO:__main__:Starting processing for MNIST-Fashion
+y_train.shape is (7000,)
+y_test.shape is (2000,)
+Number of selected features: 50
+X_train.shape is (7000, 784)
+Average sparsity: 0.064
+calculating cross entropy loss for categorical response
+loss is 0.03885583559069979
+loss_baseline is 0.2302407072306802
+Relative loss: 0.169
+Test accuracy in MNIST, type=categorical: [0.879, 0.879]
+Duration for running MNIST, type=categorical: 2812.0870611667633 seconds
+#########################################
+################ dataset=MNIST-Fashion, response_type=categorical ################
+#########################################
+Block HSIC Lasso B = 20.
+M set to 3.
+Using Gaussian kernel for the features, Delta kernel for the outcomes.
+/Users/amber/opt/anaconda3/envs/hsic_lasso/lib/python3.9/site-packages/seaborn/matrix.py:560: UserWarning: Clustering large matrix with scipy. Installing `fastcluster` may give better performance.
+  warnings.warn(msg)
+INFO:__main__:Successfully completed MNIST-Fashion
+INFO:__main__:Starting processing for MICE
+/Users/amber/opt/anaconda3/envs/hsic_lasso/lib/python3.9/site-packages/pyHSICLasso-1.4.2-py3.9.egg/pyHSICLasso/api.py:107: RuntimeWarning: B 20 must be an exact divisor of the number of samples 756. Number of blocks 37.8 will be approximated to 37.
+y_train.shape is (7000,)
+y_test.shape is (2000,)
+Number of selected features: 50
+X_train.shape is (7000, 784)
+Average sparsity: 0.064
+calculating cross entropy loss for categorical response
+loss is 0.06372034781531925
+loss_baseline is 0.23035096043559533
+Relative loss: 0.277
+Test accuracy in MNIST-Fashion, type=categorical: [0.769, 0.769]
+Duration for running MNIST-Fashion, type=categorical: 4850.822105646133 seconds
+#########################################
+################ dataset=MICE, response_type=categorical ################
+#########################################
+X shape: (1080, 77), Y shape: (1080,)
+Block HSIC Lasso B = 20.
+M set to 3.
+Using Gaussian kernel for the features, Delta kernel for the outcomes.
+/Users/amber/opt/anaconda3/envs/hsic_lasso/lib/python3.9/site-packages/pyHSICLasso-1.4.2-py3.9.egg/pyHSICLasso/nlars.py:77: RuntimeWarning: invalid value encountered in divide
+/Users/amber/opt/anaconda3/envs/hsic_lasso/lib/python3.9/site-packages/pyHSICLasso-1.4.2-py3.9.egg/pyHSICLasso/nlars.py:78: RuntimeWarning: invalid value encountered in divide
+/Users/amber/opt/anaconda3/envs/hsic_lasso/lib/python3.9/site-packages/seaborn/matrix.py:560: UserWarning: Clustering large matrix with scipy. Installing `fastcluster` may give better performance.
+  warnings.warn(msg)
+INFO:__main__:Successfully completed MICE
+INFO:__main__:Starting processing for COIL
+/Users/amber/opt/anaconda3/envs/hsic_lasso/lib/python3.9/site-packages/pyHSICLasso-1.4.2-py3.9.egg/pyHSICLasso/api.py:107: RuntimeWarning: B 20 must be an exact divisor of the number of samples 1008. Number of blocks 50.4 will be approximated to 50.
+/Users/amber/opt/anaconda3/envs/hsic_lasso/lib/python3.9/site-packages/seaborn/matrix.py:560: UserWarning: Clustering large matrix with scipy. Installing `fastcluster` may give better performance.
+  warnings.warn(msg)
+INFO:__main__:Successfully completed COIL
+INFO:__main__:Starting processing for ISOLET
+/Users/amber/opt/anaconda3/envs/hsic_lasso/lib/python3.9/site-packages/pyHSICLasso-1.4.2-py3.9.egg/pyHSICLasso/api.py:107: RuntimeWarning: B 20 must be an exact divisor of the number of samples 5458. Number of blocks 272.9 will be approximated to 272.
+y_train.shape is (756,)
+y_test.shape is (216,)
+Number of selected features: 13
+X_train.shape is (756, 77)
+Average sparsity: 0.169
+calculating cross entropy loss for categorical response
+loss is 0.11468537706996021
+loss_baseline is 0.25970097719077995
+Relative loss: 0.442
+Test accuracy in MICE, type=categorical: [0.6944444444444444, 0.6944444444444444]
+Duration for running MICE, type=categorical: 28.298706769943237 seconds
+#########################################
+################ dataset=COIL, response_type=categorical ################
+#########################################
+(1152, 400) (1152,)
+(288, 400) (288,)
+Block HSIC Lasso B = 20.
+M set to 3.
+Using Gaussian kernel for the features, Delta kernel for the outcomes.
+y_train.shape is (1008,)
+y_test.shape is (288,)
+Number of selected features: 50
+X_train.shape is (1008, 400)
+Average sparsity: 0.125
+calculating cross entropy loss for categorical response
+loss is 0.0031520880821637497
+loss_baseline is 0.15104386716016485
+Relative loss: 0.021
+Test accuracy in COIL, type=categorical: [0.9791666666666666, 0.9791666666666666]
+Duration for running COIL, type=categorical: 440.47677302360535 seconds
+#########################################
+################ dataset=ISOLET, response_type=categorical ################
+#########################################
+(6238, 617) (6238,)
+(1559, 617) (1559,)
+Block HSIC Lasso B = 20.
+M set to 3.
+Using Gaussian kernel for the features, Delta kernel for the outcomes.
+/Users/amber/opt/anaconda3/envs/hsic_lasso/lib/python3.9/site-packages/seaborn/matrix.py:560: UserWarning: Clustering large matrix with scipy. Installing `fastcluster` may give better performance.
+  warnings.warn(msg)
+INFO:__main__:Successfully completed ISOLET
+INFO:__main__:Starting processing for Activity
+ERROR:__main__:Error processing Activity: could not convert string '  2.8858451e-001 -2.0294171e-002 -1.3290514e-001 -9.9527860e-001 -9.8311061e-001 -9.1352645e-001 -9 to float64 at row 0, column 1.
+INFO:__main__:Duration for running hsic_lasso: 8598.979511 seconds
+y_train.shape is (5458,)
+y_test.shape is (1559,)
+Number of selected features: 50
+X_train.shape is (5458, 617)
+Average sparsity: 0.081
+calculating cross entropy loss for categorical response
+loss is 0.014323976984607625
+loss_baseline is 0.12532943176037287
+Relative loss: 0.114
+Test accuracy in ISOLET, type=categorical: [0.881975625400898, 0.881975625400898]
+Duration for running ISOLET, type=categorical: 467.0666289329529 seconds
+#########################################
+################ dataset=Activity, response_type=categorical ################
+#########################################

@@ -1,0 +1,456 @@
+INFO:__main__:Starting simulation: n=100, p=5, k=2, type=continuous
+[I 2024-12-04 19:18:20,680] A new study created in memory with name: no-name-7f3bd8fd-5bc0-409e-b075-1ff7becafe60
+/Users/amber/Desktop/ece695_proj/src/lspin_utils.py:1082: FutureWarning: suggest_loguniform has been deprecated in v3.0.0. This feature will be removed in v6.0.0. See https://github.com/optuna/optuna/releases/tag/v3.0.0. Use suggest_float(..., log=True) instead.
+  model_params['lam'] = trial.suggest_loguniform('lam',1e-3,1e-2,)
+/Users/amber/Desktop/ece695_proj/src/lspin_utils.py:1083: FutureWarning: suggest_loguniform has been deprecated in v3.0.0. This feature will be removed in v6.0.0. See https://github.com/optuna/optuna/releases/tag/v3.0.0. Use suggest_float(..., log=True) instead.
+  training_params['lr'] = trial.suggest_loguniform('learning_rate', 1e-2, 2e-1)
+2024-12-04 19:18:20.687946: I metal_plugin/src/device/metal_device.cc:1154] Metal device set to: Apple M1
+2024-12-04 19:18:20.687982: I metal_plugin/src/device/metal_device.cc:296] systemMemory: 8.00 GB
+2024-12-04 19:18:20.687998: I metal_plugin/src/device/metal_device.cc:313] maxCacheSize: 2.67 GB
+2024-12-04 19:18:20.688280: I tensorflow/core/common_runtime/pluggable_device/pluggable_device_factory.cc:306] Could not identify NUMA node of platform GPU ID 0, defaulting to 0. Your kernel may not have been built with NUMA support.
+2024-12-04 19:18:20.688659: I tensorflow/core/common_runtime/pluggable_device/pluggable_device_factory.cc:272] Created TensorFlow device (/job:localhost/replica:0/task:0/device:GPU:0 with 0 MB memory) -> physical PluggableDevice (device: 0, name: METAL, pci bus id: <undefined>)
+2024-12-04 19:18:20.755178: I tensorflow/core/common_runtime/pluggable_device/pluggable_device_factory.cc:306] Could not identify NUMA node of platform GPU ID 0, defaulting to 0. Your kernel may not have been built with NUMA support.
+2024-12-04 19:18:20.755213: I tensorflow/core/common_runtime/pluggable_device/pluggable_device_factory.cc:272] Created TensorFlow device (/job:localhost/replica:0/task:0/device:GPU:0 with 0 MB memory) -> physical PluggableDevice (device: 0, name: METAL, pci bus id: <undefined>)
+2024-12-04 19:18:21.005707: I tensorflow/compiler/mlir/mlir_graph_optimization_pass.cc:388] MLIR V1 optimization pass is not enabled
+2024-12-04 19:18:21.046580: I tensorflow/core/grappler/optimizers/custom_graph_optimizer_registry.cc:117] Plugin optimizer for device_type GPU is enabled.
+[I 2024-12-04 19:20:28,016] Trial 0 finished with value: 0.8230542340085707 and parameters: {'lam': 0.00538098397900883, 'learning_rate': 0.05005947523887857, 'num_epoch': 5000}. Best is trial 0 with value: 0.8230542340085707.
+/Users/amber/Desktop/ece695_proj/src/lspin_utils.py:1082: FutureWarning: suggest_loguniform has been deprecated in v3.0.0. This feature will be removed in v6.0.0. See https://github.com/optuna/optuna/releases/tag/v3.0.0. Use suggest_float(..., log=True) instead.
+  model_params['lam'] = trial.suggest_loguniform('lam',1e-3,1e-2,)
+/Users/amber/Desktop/ece695_proj/src/lspin_utils.py:1083: FutureWarning: suggest_loguniform has been deprecated in v3.0.0. This feature will be removed in v6.0.0. See https://github.com/optuna/optuna/releases/tag/v3.0.0. Use suggest_float(..., log=True) instead.
+  training_params['lr'] = trial.suggest_loguniform('learning_rate', 1e-2, 2e-1)
+2024-12-04 19:20:28.030710: I tensorflow/core/common_runtime/pluggable_device/pluggable_device_factory.cc:306] Could not identify NUMA node of platform GPU ID 0, defaulting to 0. Your kernel may not have been built with NUMA support.
+2024-12-04 19:20:28.030898: I tensorflow/core/common_runtime/pluggable_device/pluggable_device_factory.cc:272] Created TensorFlow device (/job:localhost/replica:0/task:0/device:GPU:0 with 0 MB memory) -> physical PluggableDevice (device: 0, name: METAL, pci bus id: <undefined>)
+[I 2024-12-04 19:24:23,397] Trial 1 finished with value: 1.1234651644511342 and parameters: {'lam': 0.006564920597680839, 'learning_rate': 0.02501528288100991, 'num_epoch': 10000}. Best is trial 0 with value: 0.8230542340085707.
+/Users/amber/Desktop/ece695_proj/src/lspin_utils.py:1082: FutureWarning: suggest_loguniform has been deprecated in v3.0.0. This feature will be removed in v6.0.0. See https://github.com/optuna/optuna/releases/tag/v3.0.0. Use suggest_float(..., log=True) instead.
+  model_params['lam'] = trial.suggest_loguniform('lam',1e-3,1e-2,)
+/Users/amber/Desktop/ece695_proj/src/lspin_utils.py:1083: FutureWarning: suggest_loguniform has been deprecated in v3.0.0. This feature will be removed in v6.0.0. See https://github.com/optuna/optuna/releases/tag/v3.0.0. Use suggest_float(..., log=True) instead.
+  training_params['lr'] = trial.suggest_loguniform('learning_rate', 1e-2, 2e-1)
+2024-12-04 19:24:23.399856: I tensorflow/core/common_runtime/pluggable_device/pluggable_device_factory.cc:306] Could not identify NUMA node of platform GPU ID 0, defaulting to 0. Your kernel may not have been built with NUMA support.
+2024-12-04 19:24:23.399887: I tensorflow/core/common_runtime/pluggable_device/pluggable_device_factory.cc:272] Created TensorFlow device (/job:localhost/replica:0/task:0/device:GPU:0 with 0 MB memory) -> physical PluggableDevice (device: 0, name: METAL, pci bus id: <undefined>)
+[I 2024-12-04 19:25:11,405] Trial 2 finished with value: 1.0976374618251832 and parameters: {'lam': 0.0028813736486247646, 'learning_rate': 0.012007114633166983, 'num_epoch': 2000}. Best is trial 0 with value: 0.8230542340085707.
+/Users/amber/Desktop/ece695_proj/src/lspin_utils.py:1082: FutureWarning: suggest_loguniform has been deprecated in v3.0.0. This feature will be removed in v6.0.0. See https://github.com/optuna/optuna/releases/tag/v3.0.0. Use suggest_float(..., log=True) instead.
+  model_params['lam'] = trial.suggest_loguniform('lam',1e-3,1e-2,)
+/Users/amber/Desktop/ece695_proj/src/lspin_utils.py:1083: FutureWarning: suggest_loguniform has been deprecated in v3.0.0. This feature will be removed in v6.0.0. See https://github.com/optuna/optuna/releases/tag/v3.0.0. Use suggest_float(..., log=True) instead.
+  training_params['lr'] = trial.suggest_loguniform('learning_rate', 1e-2, 2e-1)
+2024-12-04 19:25:11.408026: I tensorflow/core/common_runtime/pluggable_device/pluggable_device_factory.cc:306] Could not identify NUMA node of platform GPU ID 0, defaulting to 0. Your kernel may not have been built with NUMA support.
+2024-12-04 19:25:11.408052: I tensorflow/core/common_runtime/pluggable_device/pluggable_device_factory.cc:272] Created TensorFlow device (/job:localhost/replica:0/task:0/device:GPU:0 with 0 MB memory) -> physical PluggableDevice (device: 0, name: METAL, pci bus id: <undefined>)
+[I 2024-12-04 19:29:10,947] Trial 3 finished with value: 1.1463936467337053 and parameters: {'lam': 0.00983826063258019, 'learning_rate': 0.0292840325015487, 'num_epoch': 10000}. Best is trial 0 with value: 0.8230542340085707.
+/Users/amber/Desktop/ece695_proj/src/lspin_utils.py:1082: FutureWarning: suggest_loguniform has been deprecated in v3.0.0. This feature will be removed in v6.0.0. See https://github.com/optuna/optuna/releases/tag/v3.0.0. Use suggest_float(..., log=True) instead.
+  model_params['lam'] = trial.suggest_loguniform('lam',1e-3,1e-2,)
+/Users/amber/Desktop/ece695_proj/src/lspin_utils.py:1083: FutureWarning: suggest_loguniform has been deprecated in v3.0.0. This feature will be removed in v6.0.0. See https://github.com/optuna/optuna/releases/tag/v3.0.0. Use suggest_float(..., log=True) instead.
+  training_params['lr'] = trial.suggest_loguniform('learning_rate', 1e-2, 2e-1)
+2024-12-04 19:29:10.958047: I tensorflow/core/common_runtime/pluggable_device/pluggable_device_factory.cc:306] Could not identify NUMA node of platform GPU ID 0, defaulting to 0. Your kernel may not have been built with NUMA support.
+2024-12-04 19:29:10.958238: I tensorflow/core/common_runtime/pluggable_device/pluggable_device_factory.cc:272] Created TensorFlow device (/job:localhost/replica:0/task:0/device:GPU:0 with 0 MB memory) -> physical PluggableDevice (device: 0, name: METAL, pci bus id: <undefined>)
+[I 2024-12-04 19:31:07,815] Trial 4 finished with value: 1.1008752158751485 and parameters: {'lam': 0.0020928757626253874, 'learning_rate': 0.011831789271665718, 'num_epoch': 5000}. Best is trial 0 with value: 0.8230542340085707.
+/Users/amber/Desktop/ece695_proj/src/lspin_utils.py:1082: FutureWarning: suggest_loguniform has been deprecated in v3.0.0. This feature will be removed in v6.0.0. See https://github.com/optuna/optuna/releases/tag/v3.0.0. Use suggest_float(..., log=True) instead.
+  model_params['lam'] = trial.suggest_loguniform('lam',1e-3,1e-2,)
+/Users/amber/Desktop/ece695_proj/src/lspin_utils.py:1083: FutureWarning: suggest_loguniform has been deprecated in v3.0.0. This feature will be removed in v6.0.0. See https://github.com/optuna/optuna/releases/tag/v3.0.0. Use suggest_float(..., log=True) instead.
+  training_params['lr'] = trial.suggest_loguniform('learning_rate', 1e-2, 2e-1)
+2024-12-04 19:31:07.826303: I tensorflow/core/common_runtime/pluggable_device/pluggable_device_factory.cc:306] Could not identify NUMA node of platform GPU ID 0, defaulting to 0. Your kernel may not have been built with NUMA support.
+2024-12-04 19:31:07.826488: I tensorflow/core/common_runtime/pluggable_device/pluggable_device_factory.cc:272] Created TensorFlow device (/job:localhost/replica:0/task:0/device:GPU:0 with 0 MB memory) -> physical PluggableDevice (device: 0, name: METAL, pci bus id: <undefined>)
+[I 2024-12-04 19:31:55,496] Trial 5 finished with value: 1.1068606506414753 and parameters: {'lam': 0.009438291163201376, 'learning_rate': 0.024570250359811783, 'num_epoch': 2000}. Best is trial 0 with value: 0.8230542340085707.
+/Users/amber/Desktop/ece695_proj/src/lspin_utils.py:1082: FutureWarning: suggest_loguniform has been deprecated in v3.0.0. This feature will be removed in v6.0.0. See https://github.com/optuna/optuna/releases/tag/v3.0.0. Use suggest_float(..., log=True) instead.
+  model_params['lam'] = trial.suggest_loguniform('lam',1e-3,1e-2,)
+/Users/amber/Desktop/ece695_proj/src/lspin_utils.py:1083: FutureWarning: suggest_loguniform has been deprecated in v3.0.0. This feature will be removed in v6.0.0. See https://github.com/optuna/optuna/releases/tag/v3.0.0. Use suggest_float(..., log=True) instead.
+  training_params['lr'] = trial.suggest_loguniform('learning_rate', 1e-2, 2e-1)
+2024-12-04 19:31:55.498609: I tensorflow/core/common_runtime/pluggable_device/pluggable_device_factory.cc:306] Could not identify NUMA node of platform GPU ID 0, defaulting to 0. Your kernel may not have been built with NUMA support.
+2024-12-04 19:31:55.498633: I tensorflow/core/common_runtime/pluggable_device/pluggable_device_factory.cc:272] Created TensorFlow device (/job:localhost/replica:0/task:0/device:GPU:0 with 0 MB memory) -> physical PluggableDevice (device: 0, name: METAL, pci bus id: <undefined>)
+[I 2024-12-04 19:32:43,454] Trial 6 finished with value: 1.0829502324007145 and parameters: {'lam': 0.0018066288541927489, 'learning_rate': 0.04221211400422558, 'num_epoch': 2000}. Best is trial 0 with value: 0.8230542340085707.
+/Users/amber/Desktop/ece695_proj/src/lspin_utils.py:1082: FutureWarning: suggest_loguniform has been deprecated in v3.0.0. This feature will be removed in v6.0.0. See https://github.com/optuna/optuna/releases/tag/v3.0.0. Use suggest_float(..., log=True) instead.
+  model_params['lam'] = trial.suggest_loguniform('lam',1e-3,1e-2,)
+/Users/amber/Desktop/ece695_proj/src/lspin_utils.py:1083: FutureWarning: suggest_loguniform has been deprecated in v3.0.0. This feature will be removed in v6.0.0. See https://github.com/optuna/optuna/releases/tag/v3.0.0. Use suggest_float(..., log=True) instead.
+  training_params['lr'] = trial.suggest_loguniform('learning_rate', 1e-2, 2e-1)
+2024-12-04 19:32:43.456306: I tensorflow/core/common_runtime/pluggable_device/pluggable_device_factory.cc:306] Could not identify NUMA node of platform GPU ID 0, defaulting to 0. Your kernel may not have been built with NUMA support.
+2024-12-04 19:32:43.456328: I tensorflow/core/common_runtime/pluggable_device/pluggable_device_factory.cc:272] Created TensorFlow device (/job:localhost/replica:0/task:0/device:GPU:0 with 0 MB memory) -> physical PluggableDevice (device: 0, name: METAL, pci bus id: <undefined>)
+[I 2024-12-04 19:36:33,823] Trial 7 finished with value: 1.0874556048769395 and parameters: {'lam': 0.001106364178428433, 'learning_rate': 0.010786483362260882, 'num_epoch': 10000}. Best is trial 0 with value: 0.8230542340085707.
+/Users/amber/Desktop/ece695_proj/src/lspin_utils.py:1082: FutureWarning: suggest_loguniform has been deprecated in v3.0.0. This feature will be removed in v6.0.0. See https://github.com/optuna/optuna/releases/tag/v3.0.0. Use suggest_float(..., log=True) instead.
+  model_params['lam'] = trial.suggest_loguniform('lam',1e-3,1e-2,)
+/Users/amber/Desktop/ece695_proj/src/lspin_utils.py:1083: FutureWarning: suggest_loguniform has been deprecated in v3.0.0. This feature will be removed in v6.0.0. See https://github.com/optuna/optuna/releases/tag/v3.0.0. Use suggest_float(..., log=True) instead.
+  training_params['lr'] = trial.suggest_loguniform('learning_rate', 1e-2, 2e-1)
+2024-12-04 19:36:33.835712: I tensorflow/core/common_runtime/pluggable_device/pluggable_device_factory.cc:306] Could not identify NUMA node of platform GPU ID 0, defaulting to 0. Your kernel may not have been built with NUMA support.
+2024-12-04 19:36:33.835902: I tensorflow/core/common_runtime/pluggable_device/pluggable_device_factory.cc:272] Created TensorFlow device (/job:localhost/replica:0/task:0/device:GPU:0 with 0 MB memory) -> physical PluggableDevice (device: 0, name: METAL, pci bus id: <undefined>)
+[I 2024-12-04 19:40:25,450] Trial 8 finished with value: 1.382152005948198 and parameters: {'lam': 0.0020388372455505633, 'learning_rate': 0.044413954146547106, 'num_epoch': 10000}. Best is trial 0 with value: 0.8230542340085707.
+/Users/amber/Desktop/ece695_proj/src/lspin_utils.py:1082: FutureWarning: suggest_loguniform has been deprecated in v3.0.0. This feature will be removed in v6.0.0. See https://github.com/optuna/optuna/releases/tag/v3.0.0. Use suggest_float(..., log=True) instead.
+  model_params['lam'] = trial.suggest_loguniform('lam',1e-3,1e-2,)
+/Users/amber/Desktop/ece695_proj/src/lspin_utils.py:1083: FutureWarning: suggest_loguniform has been deprecated in v3.0.0. This feature will be removed in v6.0.0. See https://github.com/optuna/optuna/releases/tag/v3.0.0. Use suggest_float(..., log=True) instead.
+  training_params['lr'] = trial.suggest_loguniform('learning_rate', 1e-2, 2e-1)
+2024-12-04 19:40:25.452673: I tensorflow/core/common_runtime/pluggable_device/pluggable_device_factory.cc:306] Could not identify NUMA node of platform GPU ID 0, defaulting to 0. Your kernel may not have been built with NUMA support.
+2024-12-04 19:40:25.452701: I tensorflow/core/common_runtime/pluggable_device/pluggable_device_factory.cc:272] Created TensorFlow device (/job:localhost/replica:0/task:0/device:GPU:0 with 0 MB memory) -> physical PluggableDevice (device: 0, name: METAL, pci bus id: <undefined>)
+#########################################
+################ n=100, p=5, k=2, type=continuous ################
+#########################################
+num_samples : 64
+Epoch: 500 train loss=0.704973519 valid loss= 1.202525020
+Epoch: 1000 train loss=0.782831132 valid loss= 1.174313664
+Epoch: 1500 train loss=0.683736026 valid loss= 1.095991254
+Epoch: 2000 train loss=0.627698600 valid loss= 0.977835536
+Epoch: 2500 train loss=0.577917516 valid loss= 0.984130144
+Epoch: 3000 train loss=0.567650020 valid loss= 0.979763389
+Epoch: 3500 train loss=0.593377709 valid loss= 0.903101802
+Epoch: 4000 train loss=0.553739130 valid loss= 0.933355570
+Epoch: 4500 train loss=0.584764361 valid loss= 0.880955219
+Epoch: 5000 train loss=0.583545327 valid loss= 0.885849714
+Optimization Finished!
+test loss: 1.7554144859313965, test acc: 1.0
+In trial:---------------------
+validation mse: 0.8230542340085707
+num_samples : 64
+Epoch: 500 train loss=0.916863263 valid loss= 1.068437934
+Epoch: 1000 train loss=0.815939784 valid loss= 1.158848882
+Epoch: 1500 train loss=0.793472230 valid loss= 1.118848920
+Epoch: 2000 train loss=0.683740735 valid loss= 1.162020802
+Epoch: 2500 train loss=0.756015182 valid loss= 1.131925344
+Epoch: 3000 train loss=0.732461333 valid loss= 1.131059766
+Epoch: 3500 train loss=0.710601330 valid loss= 1.120703578
+Epoch: 4000 train loss=0.659306884 valid loss= 1.135666728
+Epoch: 4500 train loss=0.678944230 valid loss= 1.125262141
+Epoch: 5000 train loss=0.686433852 valid loss= 1.118495703
+Epoch: 5500 train loss=0.758560777 valid loss= 1.129549623
+Epoch: 6000 train loss=0.686283767 valid loss= 1.136718988
+Epoch: 6500 train loss=0.735526621 valid loss= 1.111567497
+Epoch: 7000 train loss=0.685053289 valid loss= 1.118192196
+Epoch: 7500 train loss=0.688386321 valid loss= 1.147679210
+Epoch: 8000 train loss=0.785882115 valid loss= 1.152865171
+Epoch: 8500 train loss=0.695177555 valid loss= 1.123256803
+Epoch: 9000 train loss=0.703456581 valid loss= 1.131911755
+Epoch: 9500 train loss=0.730999947 valid loss= 1.118247986
+Epoch: 10000 train loss=0.723129034 valid loss= 1.141807914
+Optimization Finished!
+test loss: 1.6943106651306152, test acc: 1.0
+In trial:---------------------
+validation mse: 1.1234651644511342
+num_samples : 64
+Epoch: 500 train loss=0.932495058 valid loss= 0.983966231
+Epoch: 1000 train loss=0.961625040 valid loss= 1.010073900
+Epoch: 1500 train loss=0.891411602 valid loss= 1.042941809
+Epoch: 2000 train loss=0.861832082 valid loss= 1.125158548
+Optimization Finished!
+test loss: 1.7480162382125854, test acc: 1.0
+In trial:---------------------
+validation mse: 1.0976374618251832
+num_samples : 64
+Epoch: 500 train loss=0.805029094 valid loss= 1.154071808
+Epoch: 1000 train loss=0.820667505 valid loss= 1.115846395
+Epoch: 1500 train loss=0.700536013 valid loss= 1.113592625
+Epoch: 2000 train loss=0.678299785 valid loss= 1.123702884
+Epoch: 2500 train loss=0.728952885 valid loss= 1.141279459
+Epoch: 3000 train loss=0.718075752 valid loss= 1.120066047
+Epoch: 3500 train loss=0.704296291 valid loss= 1.128534555
+Epoch: 4000 train loss=0.664076447 valid loss= 1.133633614
+Epoch: 4500 train loss=0.708011568 valid loss= 1.105724692
+Epoch: 5000 train loss=0.772506297 valid loss= 1.121896267
+Epoch: 5500 train loss=0.652520180 valid loss= 1.126256227
+Epoch: 6000 train loss=0.683169305 valid loss= 1.106877327
+Epoch: 6500 train loss=0.697117090 valid loss= 1.138095498
+Epoch: 7000 train loss=0.705312669 valid loss= 1.108515024
+Epoch: 7500 train loss=0.701905787 valid loss= 1.129527330
+Epoch: 8000 train loss=0.688988745 valid loss= 1.138435006
+Epoch: 8500 train loss=0.680799246 valid loss= 1.158956766
+Epoch: 9000 train loss=0.680479944 valid loss= 1.123530149
+Epoch: 9500 train loss=0.660161912 valid loss= 1.139552474
+Epoch: 10000 train loss=0.694712102 valid loss= 1.167798400
+Optimization Finished!
+test loss: 1.684822916984558, test acc: 1.0
+In trial:---------------------
+validation mse: 1.1463936467337053
+num_samples : 64
+Epoch: 500 train loss=1.098317266 valid loss= 0.994575500
+Epoch: 1000 train loss=0.854283631 valid loss= 1.022883296
+Epoch: 1500 train loss=0.814551592 valid loss= 1.106964350
+Epoch: 2000 train loss=0.752861023 valid loss= 1.125283003
+Epoch: 2500 train loss=0.861279070 valid loss= 1.124382973
+Epoch: 3000 train loss=0.735124350 valid loss= 1.125724196
+Epoch: 3500 train loss=0.777441323 valid loss= 1.108230948
+Epoch: 4000 train loss=0.751486838 valid loss= 1.118885279
+Epoch: 4500 train loss=0.701193094 valid loss= 1.118870854
+Epoch: 5000 train loss=0.726977646 valid loss= 1.120834589
+Optimization Finished!
+test loss: 1.679242730140686, test acc: 1.0
+In trial:---------------------
+validation mse: 1.1008752158751485
+num_samples : 64
+Epoch: 500 train loss=0.853335142 valid loss= 1.071543813
+Epoch: 1000 train loss=0.686108947 valid loss= 1.141223669
+Epoch: 1500 train loss=0.898470879 valid loss= 1.105785251
+Epoch: 2000 train loss=0.731685281 valid loss= 1.134868145
+Optimization Finished!
+test loss: 1.7043440341949463, test acc: 1.0
+In trial:---------------------
+validation mse: 1.1068606506414753
+num_samples : 64
+Epoch: 500 train loss=0.834379137 valid loss= 1.088128328
+Epoch: 1000 train loss=0.695688367 valid loss= 1.135637283
+Epoch: 1500 train loss=0.692698658 valid loss= 1.115012407
+Epoch: 2000 train loss=0.693729162 valid loss= 1.100337267
+Optimization Finished!
+test loss: 1.6778366565704346, test acc: 1.0
+In trial:---------------------
+validation mse: 1.0829502324007145
+num_samples : 64
+Epoch: 500 train loss=1.081344843 valid loss= 0.953782260
+Epoch: 1000 train loss=0.977352679 valid loss= 1.038515329
+Epoch: 1500 train loss=0.796147645 valid loss= 1.128462672
+Epoch: 2000 train loss=0.752134979 valid loss= 1.159134865
+Epoch: 2500 train loss=0.721881807 valid loss= 1.126777172
+Epoch: 3000 train loss=0.732230783 valid loss= 1.142749429
+Epoch: 3500 train loss=0.735454917 valid loss= 1.122881651
+Epoch: 4000 train loss=0.800869703 valid loss= 1.122229457
+Epoch: 4500 train loss=0.718634427 valid loss= 1.108395100
+Epoch: 5000 train loss=0.702333450 valid loss= 1.105938911
+Epoch: 5500 train loss=0.672129512 valid loss= 1.101676941
+Epoch: 6000 train loss=0.654450357 valid loss= 1.119307280
+Epoch: 6500 train loss=0.711688161 valid loss= 1.118788600
+Epoch: 7000 train loss=0.684584916 valid loss= 1.122928262
+Epoch: 7500 train loss=0.658307493 valid loss= 1.116825700
+Epoch: 8000 train loss=0.661720216 valid loss= 1.117430329
+Epoch: 8500 train loss=0.740927517 valid loss= 1.113194227
+Epoch: 9000 train loss=0.678027332 valid loss= 1.119067550
+Epoch: 9500 train loss=0.715554714 valid loss= 1.116929770
+Epoch: 10000 train loss=0.737818837 valid loss= 1.105011821
+Optimization Finished!
+test loss: 1.6747283935546875, test acc: 1.0
+In trial:---------------------
+validation mse: 1.0874556048769395
+num_samples : 64
+Epoch: 500 train loss=0.770928442 valid loss= 1.228596687
+Epoch: 1000 train loss=0.706261039 valid loss= 1.083354235
+Epoch: 1500 train loss=0.651614666 valid loss= 1.173266411
+Epoch: 2000 train loss=0.639616489 valid loss= 1.086259961
+Epoch: 2500 train loss=0.605706334 valid loss= 1.054302931
+Epoch: 3000 train loss=0.588646293 valid loss= 1.008301377
+Epoch: 3500 train loss=0.682681739 valid loss= 0.948071361
+Epoch: 4000 train loss=0.578015387 valid loss= 1.008287907
+Epoch: 4500 train loss=0.599177778 valid loss= 1.005220294
+Epoch: 5000 train loss=0.531391680 valid loss= 0.981116593
+Epoch: 5500 train loss=0.558721542 valid loss= 1.006263137
+Epoch: 6000 train loss=0.573735714 valid loss= 0.993037581
+Epoch: 6500 train loss=0.548386097 valid loss= 1.088702440
+Epoch: 7000 train loss=0.571450233 valid loss= 1.100957632
+Epoch: 7500 train loss=0.586441040 valid loss= 1.036072731
+Epoch: 8000 train loss=0.580756664 valid loss= 1.049833417
+Epoch: 8500 train loss=0.533599555 valid loss= 1.130658269
+Epoch: 9000 train loss=0.569642007 valid loss= 1.140922427
+Epoch: 9500 train loss=0.520007670 valid loss= 1.241040111
+Epoch: 10000 train loss=0.492789716 valid loss= 1.448051333
+Optimization Finished!
+test loss: 1.7280182838439941, test acc: 1.0
+In trial:---------------------
+validation mse: 1.382152005948198
+num_samples : 64
+Epoch: 500 train loss=0.962530375 valid loss= 1.045083523
+[I 2024-12-04 19:41:14,041] Trial 9 finished with value: 1.133538105325865 and parameters: {'lam': 0.0014419757550358746, 'learning_rate': 0.018328012718617174, 'num_epoch': 2000}. Best is trial 0 with value: 0.8230542340085707.
+ERROR:__main__:Error in simulation: 'NoneType' object has no attribute 'get_prob_alpha'
+INFO:__main__:Starting simulation: n=100, p=5, k=2, type=binary
+[I 2024-12-04 19:41:14,056] A new study created in memory with name: no-name-663362ed-62b7-4a8e-9790-128d8c6bffb2
+/Users/amber/Desktop/ece695_proj/src/lspin_utils.py:1082: FutureWarning: suggest_loguniform has been deprecated in v3.0.0. This feature will be removed in v6.0.0. See https://github.com/optuna/optuna/releases/tag/v3.0.0. Use suggest_float(..., log=True) instead.
+  model_params['lam'] = trial.suggest_loguniform('lam',1e-3,1e-2,)
+/Users/amber/Desktop/ece695_proj/src/lspin_utils.py:1083: FutureWarning: suggest_loguniform has been deprecated in v3.0.0. This feature will be removed in v6.0.0. See https://github.com/optuna/optuna/releases/tag/v3.0.0. Use suggest_float(..., log=True) instead.
+  training_params['lr'] = trial.suggest_loguniform('learning_rate', 1e-2, 2e-1)
+2024-12-04 19:41:14.058355: I tensorflow/core/common_runtime/pluggable_device/pluggable_device_factory.cc:306] Could not identify NUMA node of platform GPU ID 0, defaulting to 0. Your kernel may not have been built with NUMA support.
+2024-12-04 19:41:14.058392: I tensorflow/core/common_runtime/pluggable_device/pluggable_device_factory.cc:272] Created TensorFlow device (/job:localhost/replica:0/task:0/device:GPU:0 with 0 MB memory) -> physical PluggableDevice (device: 0, name: METAL, pci bus id: <undefined>)
+[I 2024-12-04 19:46:05,270] Trial 0 finished with value: 0.6875 and parameters: {'lam': 0.009368699111663107, 'learning_rate': 0.01463770638856076, 'num_epoch': 10000}. Best is trial 0 with value: 0.6875.
+2024-12-04 19:46:05.545228: I tensorflow/core/common_runtime/pluggable_device/pluggable_device_factory.cc:306] Could not identify NUMA node of platform GPU ID 0, defaulting to 0. Your kernel may not have been built with NUMA support.
+2024-12-04 19:46:05.545274: I tensorflow/core/common_runtime/pluggable_device/pluggable_device_factory.cc:272] Created TensorFlow device (/job:localhost/replica:0/task:0/device:GPU:0 with 0 MB memory) -> physical PluggableDevice (device: 0, name: METAL, pci bus id: <undefined>)
+[I 2024-12-04 19:48:32,446] Trial 1 finished with value: 0.6875 and parameters: {'lam': 0.0014713728515295247, 'learning_rate': 0.014771221228647942, 'num_epoch': 5000}. Best is trial 0 with value: 0.6875.
+2024-12-04 19:48:32.458155: I tensorflow/core/common_runtime/pluggable_device/pluggable_device_factory.cc:306] Could not identify NUMA node of platform GPU ID 0, defaulting to 0. Your kernel may not have been built with NUMA support.
+2024-12-04 19:48:32.458348: I tensorflow/core/common_runtime/pluggable_device/pluggable_device_factory.cc:272] Created TensorFlow device (/job:localhost/replica:0/task:0/device:GPU:0 with 0 MB memory) -> physical PluggableDevice (device: 0, name: METAL, pci bus id: <undefined>)
+[I 2024-12-04 19:49:32,446] Trial 2 finished with value: 0.6875 and parameters: {'lam': 0.006175102852446036, 'learning_rate': 0.013869007656240318, 'num_epoch': 2000}. Best is trial 0 with value: 0.6875.
+2024-12-04 19:49:32.448813: I tensorflow/core/common_runtime/pluggable_device/pluggable_device_factory.cc:306] Could not identify NUMA node of platform GPU ID 0, defaulting to 0. Your kernel may not have been built with NUMA support.
+2024-12-04 19:49:32.448846: I tensorflow/core/common_runtime/pluggable_device/pluggable_device_factory.cc:272] Created TensorFlow device (/job:localhost/replica:0/task:0/device:GPU:0 with 0 MB memory) -> physical PluggableDevice (device: 0, name: METAL, pci bus id: <undefined>)
+[I 2024-12-04 19:50:31,677] Trial 3 finished with value: 0.6875 and parameters: {'lam': 0.001137784932747415, 'learning_rate': 0.01120861990158865, 'num_epoch': 2000}. Best is trial 0 with value: 0.6875.
+2024-12-04 19:50:31.679485: I tensorflow/core/common_runtime/pluggable_device/pluggable_device_factory.cc:306] Could not identify NUMA node of platform GPU ID 0, defaulting to 0. Your kernel may not have been built with NUMA support.
+2024-12-04 19:50:31.679514: I tensorflow/core/common_runtime/pluggable_device/pluggable_device_factory.cc:272] Created TensorFlow device (/job:localhost/replica:0/task:0/device:GPU:0 with 0 MB memory) -> physical PluggableDevice (device: 0, name: METAL, pci bus id: <undefined>)
+[I 2024-12-04 19:55:23,124] Trial 4 finished with value: 0.6875 and parameters: {'lam': 0.001822820805703307, 'learning_rate': 0.013692037717035773, 'num_epoch': 10000}. Best is trial 0 with value: 0.6875.
+2024-12-04 19:55:23.126543: I tensorflow/core/common_runtime/pluggable_device/pluggable_device_factory.cc:306] Could not identify NUMA node of platform GPU ID 0, defaulting to 0. Your kernel may not have been built with NUMA support.
+2024-12-04 19:55:23.126581: I tensorflow/core/common_runtime/pluggable_device/pluggable_device_factory.cc:272] Created TensorFlow device (/job:localhost/replica:0/task:0/device:GPU:0 with 0 MB memory) -> physical PluggableDevice (device: 0, name: METAL, pci bus id: <undefined>)
+[I 2024-12-04 19:56:22,809] Trial 5 finished with value: 0.3125 and parameters: {'lam': 0.006716194202739313, 'learning_rate': 0.05824557738517888, 'num_epoch': 2000}. Best is trial 5 with value: 0.3125.
+2024-12-04 19:56:23.282751: I tensorflow/core/common_runtime/pluggable_device/pluggable_device_factory.cc:306] Could not identify NUMA node of platform GPU ID 0, defaulting to 0. Your kernel may not have been built with NUMA support.
+2024-12-04 19:56:23.282814: I tensorflow/core/common_runtime/pluggable_device/pluggable_device_factory.cc:272] Created TensorFlow device (/job:localhost/replica:0/task:0/device:GPU:0 with 0 MB memory) -> physical PluggableDevice (device: 0, name: METAL, pci bus id: <undefined>)
+[I 2024-12-04 19:58:54,540] Trial 6 finished with value: 0.6875 and parameters: {'lam': 0.0010461348553525217, 'learning_rate': 0.022097125657836284, 'num_epoch': 5000}. Best is trial 5 with value: 0.3125.
+2024-12-04 19:58:54.552576: I tensorflow/core/common_runtime/pluggable_device/pluggable_device_factory.cc:306] Could not identify NUMA node of platform GPU ID 0, defaulting to 0. Your kernel may not have been built with NUMA support.
+2024-12-04 19:58:54.552761: I tensorflow/core/common_runtime/pluggable_device/pluggable_device_factory.cc:272] Created TensorFlow device (/job:localhost/replica:0/task:0/device:GPU:0 with 0 MB memory) -> physical PluggableDevice (device: 0, name: METAL, pci bus id: <undefined>)
+Epoch: 1000 train loss=0.959281743 valid loss= 1.072834492
+Epoch: 1500 train loss=0.880513549 valid loss= 1.102842808
+Epoch: 2000 train loss=0.683099627 valid loss= 1.154320240
+Optimization Finished!
+test loss: 1.7074588537216187, test acc: 1.0
+In trial:---------------------
+validation mse: 1.133538105325865
+#########################################
+################ n=100, p=5, k=2, type=binary ################
+#########################################
+num_samples : 64
+Epoch: 500 train loss=0.477636665 valid loss= 0.613960683 valid acc= 0.875000000
+Epoch: 1000 train loss=0.505806804 valid loss= 0.621534050 valid acc= 0.812500000
+Epoch: 1500 train loss=0.442571014 valid loss= 0.620761871 valid acc= 0.812500000
+Epoch: 2000 train loss=0.381721407 valid loss= 0.650004148 valid acc= 0.750000000
+Epoch: 2500 train loss=0.436600506 valid loss= 0.681834698 valid acc= 0.812500000
+Epoch: 3000 train loss=0.340474457 valid loss= 0.767313719 valid acc= 0.750000000
+Epoch: 3500 train loss=0.322077990 valid loss= 0.830498874 valid acc= 0.750000000
+Epoch: 4000 train loss=0.292279631 valid loss= 0.870294392 valid acc= 0.750000000
+Epoch: 4500 train loss=0.280755401 valid loss= 0.962535024 valid acc= 0.687500000
+Epoch: 5000 train loss=0.253323197 valid loss= 1.063655496 valid acc= 0.687500000
+Epoch: 5500 train loss=0.250162125 valid loss= 1.090222955 valid acc= 0.687500000
+Epoch: 6000 train loss=0.212693900 valid loss= 1.113045573 valid acc= 0.625000000
+Epoch: 6500 train loss=0.253818870 valid loss= 1.117976665 valid acc= 0.625000000
+Epoch: 7000 train loss=0.265544027 valid loss= 1.128397942 valid acc= 0.625000000
+Epoch: 7500 train loss=0.219408214 valid loss= 1.165518045 valid acc= 0.625000000
+Epoch: 8000 train loss=0.245620102 valid loss= 1.215847135 valid acc= 0.625000000
+Epoch: 8500 train loss=0.237024128 valid loss= 1.261338949 valid acc= 0.625000000
+Epoch: 9000 train loss=0.205311179 valid loss= 1.352224231 valid acc= 0.625000000
+Epoch: 9500 train loss=0.240065068 valid loss= 1.391016483 valid acc= 0.625000000
+Epoch: 10000 train loss=0.209932268 valid loss= 1.425289631 valid acc= 0.625000000
+Optimization Finished!
+test loss: 1.3752188682556152, test acc: 0.5
+In trial:---------------------
+Validation accuracy: 0.3125
+num_samples : 64
+Epoch: 500 train loss=0.478564918 valid loss= 0.632375717 valid acc= 0.687500000
+Epoch: 1000 train loss=0.416159242 valid loss= 0.647723496 valid acc= 0.750000000
+Epoch: 1500 train loss=0.430881619 valid loss= 0.712550163 valid acc= 0.687500000
+Epoch: 2000 train loss=0.410997540 valid loss= 0.761197865 valid acc= 0.687500000
+Epoch: 2500 train loss=0.356121331 valid loss= 0.779279947 valid acc= 0.687500000
+Epoch: 3000 train loss=0.342245966 valid loss= 0.833234370 valid acc= 0.687500000
+Epoch: 3500 train loss=0.334108651 valid loss= 0.930712521 valid acc= 0.687500000
+Epoch: 4000 train loss=0.285226941 valid loss= 0.982675791 valid acc= 0.625000000
+Epoch: 4500 train loss=0.275973111 valid loss= 1.029169083 valid acc= 0.625000000
+Epoch: 5000 train loss=0.215189278 valid loss= 1.062929988 valid acc= 0.625000000
+Optimization Finished!
+test loss: 0.6523730754852295, test acc: 0.75
+In trial:---------------------
+Validation accuracy: 0.3125
+num_samples : 64
+Epoch: 500 train loss=0.469856590 valid loss= 0.612842679 valid acc= 0.687500000
+Epoch: 1000 train loss=0.425317675 valid loss= 0.620228946 valid acc= 0.687500000
+Epoch: 1500 train loss=0.415858626 valid loss= 0.633758605 valid acc= 0.687500000
+Epoch: 2000 train loss=0.397919536 valid loss= 0.727305710 valid acc= 0.687500000
+Optimization Finished!
+test loss: 0.6354420781135559, test acc: 0.6500000357627869
+In trial:---------------------
+Validation accuracy: 0.3125
+num_samples : 64
+Epoch: 500 train loss=0.528703094 valid loss= 0.631190777 valid acc= 0.625000000
+Epoch: 1000 train loss=0.464903355 valid loss= 0.624885559 valid acc= 0.750000000
+Epoch: 1500 train loss=0.457770616 valid loss= 0.623006046 valid acc= 0.812500000
+Epoch: 2000 train loss=0.428836763 valid loss= 0.623799324 valid acc= 0.750000000
+Optimization Finished!
+test loss: 0.6922518014907837, test acc: 0.6500000357627869
+In trial:---------------------
+Validation accuracy: 0.3125
+num_samples : 64
+Epoch: 500 train loss=0.489537567 valid loss= 0.633330226 valid acc= 0.687500000
+Epoch: 1000 train loss=0.396216333 valid loss= 0.645716846 valid acc= 0.687500000
+Epoch: 1500 train loss=0.429549217 valid loss= 0.655065119 valid acc= 0.625000000
+Epoch: 2000 train loss=0.347144395 valid loss= 0.707513750 valid acc= 0.562500000
+Epoch: 2500 train loss=0.321370542 valid loss= 0.784654498 valid acc= 0.562500000
+Epoch: 3000 train loss=0.281150997 valid loss= 0.853804290 valid acc= 0.625000000
+Epoch: 3500 train loss=0.324164242 valid loss= 0.911502957 valid acc= 0.625000000
+Epoch: 4000 train loss=0.286842853 valid loss= 0.941483378 valid acc= 0.625000000
+Epoch: 4500 train loss=0.281427175 valid loss= 0.969062746 valid acc= 0.625000000
+Epoch: 5000 train loss=0.300637811 valid loss= 0.999646783 valid acc= 0.625000000
+Epoch: 5500 train loss=0.243931562 valid loss= 1.021278858 valid acc= 0.562500000
+Epoch: 6000 train loss=0.264059752 valid loss= 1.045609593 valid acc= 0.562500000
+Epoch: 6500 train loss=0.233340770 valid loss= 1.059695721 valid acc= 0.625000000
+Epoch: 7000 train loss=0.188176095 valid loss= 1.080641866 valid acc= 0.625000000
+Epoch: 7500 train loss=0.246876776 valid loss= 1.111660480 valid acc= 0.625000000
+Epoch: 8000 train loss=0.185156524 valid loss= 1.163908124 valid acc= 0.625000000
+Epoch: 8500 train loss=0.184153140 valid loss= 1.219375372 valid acc= 0.687500000
+Epoch: 9000 train loss=0.210576952 valid loss= 1.243344426 valid acc= 0.625000000
+Epoch: 9500 train loss=0.169337317 valid loss= 1.248923302 valid acc= 0.625000000
+Epoch: 10000 train loss=0.154754162 valid loss= 1.206883192 valid acc= 0.625000000
+Optimization Finished!
+test loss: 1.438726544380188, test acc: 0.5
+In trial:---------------------
+Validation accuracy: 0.3125
+num_samples : 64
+Epoch: 500 train loss=0.399779379 valid loss= 0.720065117 valid acc= 0.812500000
+Epoch: 1000 train loss=0.347050786 valid loss= 0.880355358 valid acc= 0.687500000
+Epoch: 1500 train loss=0.281599879 valid loss= 0.960318267 valid acc= 0.687500000
+Epoch: 2000 train loss=0.206274599 valid loss= 1.011586666 valid acc= 0.687500000
+Optimization Finished!
+test loss: 0.9745843410491943, test acc: 0.6000000238418579
+In trial:---------------------
+Validation accuracy: 0.6875
+num_samples : 64
+Epoch: 500 train loss=0.447974920 valid loss= 0.606345534 valid acc= 0.750000000
+Epoch: 1000 train loss=0.423015147 valid loss= 0.628029168 valid acc= 0.625000000
+Epoch: 1500 train loss=0.363330066 valid loss= 0.685119808 valid acc= 0.562500000
+Epoch: 2000 train loss=0.335514933 valid loss= 0.785085499 valid acc= 0.562500000
+Epoch: 2500 train loss=0.276748657 valid loss= 0.946230829 valid acc= 0.562500000
+Epoch: 3000 train loss=0.262487918 valid loss= 1.019526601 valid acc= 0.625000000
+Epoch: 3500 train loss=0.232332915 valid loss= 1.101288676 valid acc= 0.625000000
+Epoch: 4000 train loss=0.272667706 valid loss= 1.144026279 valid acc= 0.625000000
+Epoch: 4500 train loss=0.232277900 valid loss= 1.198292375 valid acc= 0.500000000
+Epoch: 5000 train loss=0.194797099 valid loss= 1.258330345 valid acc= 0.500000000
+Optimization Finished!
+test loss: 1.000454306602478, test acc: 0.6000000238418579
+In trial:---------------------
+Validation accuracy: 0.3125
+num_samples : 64
+Epoch: 500 train loss=0.462692916 valid loss= 0.616506755 valid acc= 0.687500000
+Epoch: 1000 train loss=0.422580868 valid loss= 0.663273990 valid acc= 0.625000000
+Epoch: 1500 train loss=0.435266674 valid loss= 0.679455996 valid acc= 0.625000000
+Epoch: 2000 train loss=0.287163168 valid loss= 0.882310450 valid acc= 0.625000000
+Epoch: 2500 train loss=0.293784440 valid loss= 0.982049227 valid acc= 0.562500000
+Epoch: 3000 train loss=0.238276422 valid loss= 1.108093977 valid acc= 0.500000000
+Epoch: 3500 train loss=0.260174036 valid loss= 1.151694417 valid acc= 0.437500000
+Epoch: 4000 train loss=0.212463140 valid loss= 1.189932466 valid acc= 0.375000000
+Epoch: 4500 train loss=0.193771273 valid loss= 1.248241186 valid acc= 0.375000000
+[I 2024-12-04 20:04:01,953] Trial 7 finished with value: 0.6875 and parameters: {'lam': 0.0013504253481589966, 'learning_rate': 0.02654295111234898, 'num_epoch': 10000}. Best is trial 5 with value: 0.3125.
+2024-12-04 20:04:01.966060: I tensorflow/core/common_runtime/pluggable_device/pluggable_device_factory.cc:306] Could not identify NUMA node of platform GPU ID 0, defaulting to 0. Your kernel may not have been built with NUMA support.
+2024-12-04 20:04:01.966266: I tensorflow/core/common_runtime/pluggable_device/pluggable_device_factory.cc:272] Created TensorFlow device (/job:localhost/replica:0/task:0/device:GPU:0 with 0 MB memory) -> physical PluggableDevice (device: 0, name: METAL, pci bus id: <undefined>)
+[I 2024-12-04 20:09:13,608] Trial 8 finished with value: 0.6875 and parameters: {'lam': 0.004882492562034045, 'learning_rate': 0.035179522827339695, 'num_epoch': 10000}. Best is trial 5 with value: 0.3125.
+2024-12-04 20:09:13.620770: I tensorflow/core/common_runtime/pluggable_device/pluggable_device_factory.cc:306] Could not identify NUMA node of platform GPU ID 0, defaulting to 0. Your kernel may not have been built with NUMA support.
+2024-12-04 20:09:13.620960: I tensorflow/core/common_runtime/pluggable_device/pluggable_device_factory.cc:272] Created TensorFlow device (/job:localhost/replica:0/task:0/device:GPU:0 with 0 MB memory) -> physical PluggableDevice (device: 0, name: METAL, pci bus id: <undefined>)
+[I 2024-12-04 20:10:17,783] Trial 9 finished with value: 0.6875 and parameters: {'lam': 0.008945345364215969, 'learning_rate': 0.10755316285627427, 'num_epoch': 2000}. Best is trial 5 with value: 0.3125.
+ERROR:__main__:Error in simulation: 'NoneType' object has no attribute 'get_prob_alpha'
+INFO:__main__:Duration for running lspin: 3117.111574 seconds
+Epoch: 5000 train loss=0.193645090 valid loss= 1.345929623 valid acc= 0.375000000
+Epoch: 5500 train loss=0.201506227 valid loss= 1.395600200 valid acc= 0.375000000
+Epoch: 6000 train loss=0.197546750 valid loss= 1.436893463 valid acc= 0.375000000
+Epoch: 6500 train loss=0.181675553 valid loss= 1.469660759 valid acc= 0.375000000
+Epoch: 7000 train loss=0.175042272 valid loss= 1.462769866 valid acc= 0.375000000
+Epoch: 7500 train loss=0.201037332 valid loss= 1.453599691 valid acc= 0.375000000
+Epoch: 8000 train loss=0.152724102 valid loss= 1.461959720 valid acc= 0.375000000
+Epoch: 8500 train loss=0.181397647 valid loss= 1.465763330 valid acc= 0.375000000
+Epoch: 9000 train loss=0.168950364 valid loss= 1.501336455 valid acc= 0.375000000
+Epoch: 9500 train loss=0.177138209 valid loss= 1.528666854 valid acc= 0.375000000
+Epoch: 10000 train loss=0.172185495 valid loss= 1.537205100 valid acc= 0.375000000
+Optimization Finished!
+test loss: 0.9173724055290222, test acc: 0.6000000238418579
+In trial:---------------------
+Validation accuracy: 0.3125
+num_samples : 64
+Epoch: 500 train loss=0.448901951 valid loss= 0.605576038 valid acc= 0.687500000
+Epoch: 1000 train loss=0.379169166 valid loss= 0.761269331 valid acc= 0.500000000
+Epoch: 1500 train loss=0.296212316 valid loss= 0.962180018 valid acc= 0.562500000
+Epoch: 2000 train loss=0.185167417 valid loss= 1.124656796 valid acc= 0.500000000
+Epoch: 2500 train loss=0.233887225 valid loss= 1.159456015 valid acc= 0.625000000
+Epoch: 3000 train loss=0.219445407 valid loss= 1.234801650 valid acc= 0.562500000
+Epoch: 3500 train loss=0.162443027 valid loss= 1.307285428 valid acc= 0.500000000
+Epoch: 4000 train loss=0.184439123 valid loss= 1.372631669 valid acc= 0.437500000
+Epoch: 4500 train loss=0.186359674 valid loss= 1.420896292 valid acc= 0.437500000
+Epoch: 5000 train loss=0.198887169 valid loss= 1.423596859 valid acc= 0.500000000
+Epoch: 5500 train loss=0.212862223 valid loss= 1.450669527 valid acc= 0.500000000
+Epoch: 6000 train loss=0.155705839 valid loss= 1.498358607 valid acc= 0.500000000
+Epoch: 6500 train loss=0.143426701 valid loss= 1.492863178 valid acc= 0.500000000
+Epoch: 7000 train loss=0.161521360 valid loss= 1.480007887 valid acc= 0.562500000
+Epoch: 7500 train loss=0.158324137 valid loss= 1.468402505 valid acc= 0.500000000
+Epoch: 8000 train loss=0.138774544 valid loss= 1.475481391 valid acc= 0.562500000
+Epoch: 8500 train loss=0.149338007 valid loss= 1.485248089 valid acc= 0.562500000
+Epoch: 9000 train loss=0.161970258 valid loss= 1.477945805 valid acc= 0.562500000
+Epoch: 9500 train loss=0.152879357 valid loss= 1.465218306 valid acc= 0.562500000
+Epoch: 10000 train loss=0.128811300 valid loss= 1.486402512 valid acc= 0.562500000
+Optimization Finished!
+test loss: 1.4391796588897705, test acc: 0.5
+In trial:---------------------
+Validation accuracy: 0.3125
+num_samples : 64
+Epoch: 500 train loss=0.341484338 valid loss= 0.884477556 valid acc= 0.687500000
+Epoch: 1000 train loss=0.295305699 valid loss= 1.139075041 valid acc= 0.687500000
+Epoch: 1500 train loss=0.173272014 valid loss= 1.231806397 valid acc= 0.750000000
+Epoch: 2000 train loss=0.111709587 valid loss= 1.465410233 valid acc= 0.625000000
+Optimization Finished!
+test loss: 2.1735129356384277, test acc: 0.45000001788139343
+In trial:---------------------
+Validation accuracy: 0.3125

@@ -1,0 +1,398 @@
+INFO:__main__:Starting simulation: n=100, p=5, k=2, type=continuous
+/Users/amber/opt/anaconda3/envs/hsic_lasso/lib/python3.9/site-packages/pyHSICLasso-1.4.2-py3.9.egg/pyHSICLasso/api.py:107: RuntimeWarning: B 20 must be an exact divisor of the number of samples 64. Number of blocks 3.2 will be approximated to 3.
+#########################################
+################ n=100, p=5, k=2, type=continuous ################
+#########################################
+X_train.shape: (64, 5), X_val.shape: (16, 5), X_test.shape: (20, 5)
+y_train.shape: (64,), y_val.shape: (16,), y_test.shape: (20,)
+Block HSIC Lasso B = 20.
+M set to 3.
+Using Gaussian kernel for the features, Gaussian kernel for the outcomes.
+WARNING:root:Two scores are not the same: [0.07581256907318934, 0.6536328400539999]
+INFO:__main__:Simulation completed successfully
+INFO:__main__:Starting simulation: n=100, p=5, k=2, type=binary
+/Users/amber/opt/anaconda3/envs/hsic_lasso/lib/python3.9/site-packages/pyHSICLasso-1.4.2-py3.9.egg/pyHSICLasso/api.py:107: RuntimeWarning: B 20 must be an exact divisor of the number of samples 64. Number of blocks 3.2 will be approximated to 3.
+INFO:__main__:Simulation completed successfully
+INFO:__main__:Starting simulation: n=1000, p=5, k=2, type=continuous
+WARNING:root:Two scores are not the same: [0.4675037812539875, 0.5653780459608151]
+INFO:__main__:Simulation completed successfully
+INFO:__main__:Starting simulation: n=1000, p=5, k=2, type=binary
+INFO:__main__:Simulation completed successfully
+INFO:__main__:Starting simulation: n=10000, p=5, k=2, type=continuous
+/Users/amber/opt/anaconda3/envs/hsic_lasso/lib/python3.9/site-packages/seaborn/matrix.py:560: UserWarning: Clustering large matrix with scipy. Installing `fastcluster` may give better performance.
+  warnings.warn(msg)
+WARNING:root:Two scores are not the same: [0.23330430882674968, 0.23498934257730242]
+INFO:__main__:Simulation completed successfully
+INFO:__main__:Starting simulation: n=10000, p=5, k=2, type=binary
+/Users/amber/opt/anaconda3/envs/hsic_lasso/lib/python3.9/site-packages/seaborn/matrix.py:560: UserWarning: Clustering large matrix with scipy. Installing `fastcluster` may give better performance.
+  warnings.warn(msg)
+WARNING:root:Two scores are not the same: [0.6325, 0.632]
+INFO:__main__:Simulation completed successfully
+INFO:__main__:Starting simulation: n=100, p=20, k=5, type=continuous
+/Users/amber/opt/anaconda3/envs/hsic_lasso/lib/python3.9/site-packages/pyHSICLasso-1.4.2-py3.9.egg/pyHSICLasso/api.py:107: RuntimeWarning: B 20 must be an exact divisor of the number of samples 64. Number of blocks 3.2 will be approximated to 3.
+WARNING:root:Two scores are not the same: [0.4236635944188806, 0.6915961488127269]
+INFO:__main__:Simulation completed successfully
+INFO:__main__:Starting simulation: n=100, p=20, k=5, type=binary
+/Users/amber/opt/anaconda3/envs/hsic_lasso/lib/python3.9/site-packages/pyHSICLasso-1.4.2-py3.9.egg/pyHSICLasso/api.py:107: RuntimeWarning: B 20 must be an exact divisor of the number of samples 64. Number of blocks 3.2 will be approximated to 3.
+INFO:__main__:Simulation completed successfully
+INFO:__main__:Starting simulation: n=1000, p=20, k=5, type=continuous
+/Users/amber/opt/anaconda3/envs/hsic_lasso/lib/python3.9/site-packages/seaborn/matrix.py:560: UserWarning: Clustering large matrix with scipy. Installing `fastcluster` may give better performance.
+  warnings.warn(msg)
+WARNING:root:Two scores are not the same: [0.6454982269245754, 0.8037739314239595]
+INFO:__main__:Simulation completed successfully
+INFO:__main__:Starting simulation: n=1000, p=20, k=5, type=binary
+/Users/amber/opt/anaconda3/envs/hsic_lasso/lib/python3.9/site-packages/seaborn/matrix.py:560: UserWarning: Clustering large matrix with scipy. Installing `fastcluster` may give better performance.
+  warnings.warn(msg)
+INFO:__main__:Simulation completed successfully
+INFO:__main__:Starting simulation: n=10000, p=20, k=5, type=continuous
+Number of features selected by HSIC Lasso: 2
+Average sparsity: 0.4
+loss is 1.4247889957298414
+loss_baseline is 4.240816933367186
+Mean of predictions: -0.5693737268447876
+Std of predictions: 1.2612861394882202
+Mean of true values: -0.5593269961764935
+Std of true values: 2.028181989493807
+Relative loss: 0.336
+Test R2 score with n=100, p=5, k=2, type=continuous: [0.07581256907318934, 0.6536328400539999]
+Test MSE: 1.425
+Duration for running in the setting n=100, p=5, k=2, type=continuous: 12.702958106994629 seconds
+#########################################
+################ n=100, p=5, k=2, type=binary ################
+#########################################
+X_train.shape: (64, 5), X_val.shape: (16, 5), X_test.shape: (20, 5)
+y_train.shape: (64,), y_val.shape: (16,), y_test.shape: (20,)
+Block HSIC Lasso B = 20.
+M set to 3.
+Using Gaussian kernel for the features, Delta kernel for the outcomes.
+Number of features selected by HSIC Lasso: 2
+Average sparsity: 0.4
+calculating cross entropy loss for categorical response
+loss is 0.3494914198294282
+loss_baseline is 0.3465735902799726
+Relative loss: 1.008
+Test accuracy with n=100, p=5, k=2, type=binary: [0.6, 0.6]
+Duration for running in the setting n=100, p=5, k=2, type=binary: 6.484825849533081 seconds
+#########################################
+################ n=1000, p=5, k=2, type=continuous ################
+#########################################
+X_train.shape: (640, 5), X_val.shape: (160, 5), X_test.shape: (200, 5)
+y_train.shape: (640,), y_val.shape: (160,), y_test.shape: (200,)
+Block HSIC Lasso B = 20.
+M set to 3.
+Using Gaussian kernel for the features, Gaussian kernel for the outcomes.
+Number of features selected by HSIC Lasso: 2
+Average sparsity: 0.4
+loss is 1.458221415139083
+loss_baseline is 3.3564254626997325
+Mean of predictions: 0.007237931713461876
+Std of predictions: 1.2577358484268188
+Mean of true values: 0.08181738637292595
+Std of true values: 1.83170658172466
+Relative loss: 0.434
+Test R2 score with n=1000, p=5, k=2, type=continuous: [0.4675037812539875, 0.5653780459608151]
+Test MSE: 1.458
+Duration for running in the setting n=1000, p=5, k=2, type=continuous: 6.644978046417236 seconds
+#########################################
+################ n=1000, p=5, k=2, type=binary ################
+#########################################
+X_train.shape: (640, 5), X_val.shape: (160, 5), X_test.shape: (200, 5)
+y_train.shape: (640,), y_val.shape: (160,), y_test.shape: (200,)
+Block HSIC Lasso B = 20.
+M set to 3.
+Using Gaussian kernel for the features, Delta kernel for the outcomes.
+Number of features selected by HSIC Lasso: 2
+Average sparsity: 0.4
+calculating cross entropy loss for categorical response
+loss is 0.29261452130042015
+loss_baseline is 0.34750534525593374
+Relative loss: 0.842
+Test accuracy with n=1000, p=5, k=2, type=binary: [0.71, 0.71]
+Duration for running in the setting n=1000, p=5, k=2, type=binary: 1.6292119026184082 seconds
+#########################################
+################ n=10000, p=5, k=2, type=continuous ################
+#########################################
+X_train.shape: (6400, 5), X_val.shape: (1600, 5), X_test.shape: (2000, 5)
+y_train.shape: (6400,), y_val.shape: (1600,), y_test.shape: (2000,)
+Block HSIC Lasso B = 20.
+M set to 3.
+Using Gaussian kernel for the features, Gaussian kernel for the outcomes.
+Number of features selected by HSIC Lasso: 2
+Average sparsity: 0.4
+loss is 1.6633061280883499
+loss_baseline is 2.1748460014896485
+Mean of predictions: -0.020748145878314972
+Std of predictions: 0.62856125831604
+Mean of true values: 0.021286038676989708
+Std of true values: 1.4745257159005942
+Relative loss: 0.765
+Test R2 score with n=10000, p=5, k=2, type=continuous: [0.23330430882674968, 0.23498934257730242]
+Test MSE: 1.663
+Duration for running in the setting n=10000, p=5, k=2, type=continuous: 4.287827014923096 seconds
+#########################################
+################ n=10000, p=5, k=2, type=binary ################
+#########################################
+X_train.shape: (6400, 5), X_val.shape: (1600, 5), X_test.shape: (2000, 5)
+y_train.shape: (6400,), y_val.shape: (1600,), y_test.shape: (2000,)
+Block HSIC Lasso B = 20.
+M set to 3.
+Using Gaussian kernel for the features, Delta kernel for the outcomes.
+Number of features selected by HSIC Lasso: 2
+Average sparsity: 0.4
+calculating cross entropy loss for categorical response
+loss is 0.3208645275812596
+loss_baseline is 0.3465554066600787
+Relative loss: 0.926
+Test accuracy with n=10000, p=5, k=2, type=binary: [0.6325, 0.632]
+Duration for running in the setting n=10000, p=5, k=2, type=binary: 4.504115104675293 seconds
+#########################################
+################ n=100, p=20, k=5, type=continuous ################
+#########################################
+X_train.shape: (64, 20), X_val.shape: (16, 20), X_test.shape: (20, 20)
+y_train.shape: (64,), y_val.shape: (16,), y_test.shape: (20,)
+Block HSIC Lasso B = 20.
+M set to 3.
+Using Gaussian kernel for the features, Gaussian kernel for the outcomes.
+Number of features selected by HSIC Lasso: 5
+Average sparsity: 0.25
+loss is 3.965726913062734
+loss_baseline is 13.931623768772962
+Mean of predictions: 0.18511836230754852
+Std of predictions: 2.1134536266326904
+Mean of true values: -0.7820655566998148
+Std of true values: 3.585927509878696
+Relative loss: 0.285
+Test R2 score with n=100, p=20, k=5, type=continuous: [0.4236635944188806, 0.6915961488127269]
+Test MSE: 3.966
+Duration for running in the setting n=100, p=20, k=5, type=continuous: 1.5946111679077148 seconds
+#########################################
+################ n=100, p=20, k=5, type=binary ################
+#########################################
+X_train.shape: (64, 20), X_val.shape: (16, 20), X_test.shape: (20, 20)
+y_train.shape: (64,), y_val.shape: (16,), y_test.shape: (20,)
+Block HSIC Lasso B = 20.
+M set to 3.
+Using Gaussian kernel for the features, Delta kernel for the outcomes.
+Number of features selected by HSIC Lasso: 5
+Average sparsity: 0.25
+calculating cross entropy loss for categorical response
+loss is 0.20706519782415853
+loss_baseline is 0.3452548412673959
+Relative loss: 0.600
+Test accuracy with n=100, p=20, k=5, type=binary: [0.8, 0.8]
+Duration for running in the setting n=100, p=20, k=5, type=binary: 2.0534749031066895 seconds
+#########################################
+################ n=1000, p=20, k=5, type=continuous ################
+#########################################
+X_train.shape: (640, 20), X_val.shape: (160, 20), X_test.shape: (200, 20)
+y_train.shape: (640,), y_val.shape: (160,), y_test.shape: (200,)
+Block HSIC Lasso B = 20.
+M set to 3.
+Using Gaussian kernel for the features, Gaussian kernel for the outcomes.
+Number of features selected by HSIC Lasso: 5
+Average sparsity: 0.25
+loss is 1.10007463165364
+loss_baseline is 5.653785713453419
+Mean of predictions: -0.04610057175159454
+Std of predictions: 2.0832319259643555
+Mean of true values: -0.011689765709059606
+Std of true values: 2.367732980117097
+Relative loss: 0.195
+Test R2 score with n=1000, p=20, k=5, type=continuous: [0.6454982269245754, 0.8037739314239595]
+Test MSE: 1.100
+Duration for running in the setting n=1000, p=20, k=5, type=continuous: 6.815537929534912 seconds
+#########################################
+################ n=1000, p=20, k=5, type=binary ################
+#########################################
+X_train.shape: (640, 20), X_val.shape: (160, 20), X_test.shape: (200, 20)
+y_train.shape: (640,), y_val.shape: (160,), y_test.shape: (200,)
+Block HSIC Lasso B = 20.
+M set to 3.
+Using Gaussian kernel for the features, Delta kernel for the outcomes.
+Number of features selected by HSIC Lasso: 5
+Average sparsity: 0.25
+calculating cross entropy loss for categorical response
+loss is 0.2318653258145787
+loss_baseline is 0.3470142788993185
+Relative loss: 0.668
+Test accuracy with n=1000, p=20, k=5, type=binary: [0.79, 0.79]
+Duration for running in the setting n=1000, p=20, k=5, type=binary: 6.40851902961731 seconds
+#########################################
+################ n=10000, p=20, k=5, type=continuous ################
+#########################################
+/Users/amber/opt/anaconda3/envs/hsic_lasso/lib/python3.9/site-packages/seaborn/matrix.py:560: UserWarning: Clustering large matrix with scipy. Installing `fastcluster` may give better performance.
+  warnings.warn(msg)
+WARNING:root:Two scores are not the same: [0.55283027342704, 0.555595731871197]
+INFO:__main__:Simulation completed successfully
+INFO:__main__:Starting simulation: n=10000, p=20, k=5, type=binary
+/Users/amber/opt/anaconda3/envs/hsic_lasso/lib/python3.9/site-packages/seaborn/matrix.py:560: UserWarning: Clustering large matrix with scipy. Installing `fastcluster` may give better performance.
+  warnings.warn(msg)
+WARNING:root:Two scores are not the same: [0.687, 0.6865]
+INFO:__main__:Simulation completed successfully
+INFO:__main__:Starting simulation: n=100, p=100, k=10, type=continuous
+/Users/amber/opt/anaconda3/envs/hsic_lasso/lib/python3.9/site-packages/pyHSICLasso-1.4.2-py3.9.egg/pyHSICLasso/api.py:107: RuntimeWarning: B 20 must be an exact divisor of the number of samples 64. Number of blocks 3.2 will be approximated to 3.
+WARNING:root:Two scores are not the same: [0.5864157167473225, 0.6056325154243147]
+INFO:__main__:Simulation completed successfully
+INFO:__main__:Starting simulation: n=100, p=100, k=10, type=binary
+/Users/amber/opt/anaconda3/envs/hsic_lasso/lib/python3.9/site-packages/pyHSICLasso-1.4.2-py3.9.egg/pyHSICLasso/api.py:107: RuntimeWarning: B 20 must be an exact divisor of the number of samples 64. Number of blocks 3.2 will be approximated to 3.
+INFO:__main__:Simulation completed successfully
+INFO:__main__:Starting simulation: n=1000, p=100, k=10, type=continuous
+/Users/amber/opt/anaconda3/envs/hsic_lasso/lib/python3.9/site-packages/seaborn/matrix.py:560: UserWarning: Clustering large matrix with scipy. Installing `fastcluster` may give better performance.
+  warnings.warn(msg)
+WARNING:root:Two scores are not the same: [0.6820759649603771, 0.8580609450328001]
+INFO:__main__:Simulation completed successfully
+INFO:__main__:Starting simulation: n=1000, p=100, k=10, type=binary
+/Users/amber/opt/anaconda3/envs/hsic_lasso/lib/python3.9/site-packages/seaborn/matrix.py:560: UserWarning: Clustering large matrix with scipy. Installing `fastcluster` may give better performance.
+  warnings.warn(msg)
+INFO:__main__:Simulation completed successfully
+INFO:__main__:Starting simulation: n=10000, p=100, k=10, type=continuous
+/Users/amber/opt/anaconda3/envs/hsic_lasso/lib/python3.9/site-packages/seaborn/matrix.py:560: UserWarning: Clustering large matrix with scipy. Installing `fastcluster` may give better performance.
+  warnings.warn(msg)
+WARNING:root:Two scores are not the same: [0.7405064158572001, 0.9055538108174914]
+INFO:__main__:Simulation completed successfully
+INFO:__main__:Starting simulation: n=10000, p=100, k=10, type=binary
+/Users/amber/opt/anaconda3/envs/hsic_lasso/lib/python3.9/site-packages/seaborn/matrix.py:560: UserWarning: Clustering large matrix with scipy. Installing `fastcluster` may give better performance.
+  warnings.warn(msg)
+INFO:__main__:Simulation completed successfully
+INFO:__main__:Duration for running hsic_lasso: 242.629339 seconds
+X_train.shape: (6400, 20), X_val.shape: (1600, 20), X_test.shape: (2000, 20)
+y_train.shape: (6400,), y_val.shape: (1600,), y_test.shape: (2000,)
+Block HSIC Lasso B = 20.
+M set to 3.
+Using Gaussian kernel for the features, Gaussian kernel for the outcomes.
+Number of features selected by HSIC Lasso: 5
+Average sparsity: 0.25
+loss is 1.1107601693501146
+loss_baseline is 2.49944464694219
+Mean of predictions: 0.019671045243740082
+Std of predictions: 0.9805170893669128
+Mean of true values: 0.009000202361065487
+Std of true values: 1.5809605693560456
+Relative loss: 0.444
+Test R2 score with n=10000, p=20, k=5, type=continuous: [0.55283027342704, 0.555595731871197]
+Test MSE: 1.111
+Duration for running in the setting n=10000, p=20, k=5, type=continuous: 24.094964027404785 seconds
+#########################################
+################ n=10000, p=20, k=5, type=binary ################
+#########################################
+X_train.shape: (6400, 20), X_val.shape: (1600, 20), X_test.shape: (2000, 20)
+y_train.shape: (6400,), y_val.shape: (1600,), y_test.shape: (2000,)
+Block HSIC Lasso B = 20.
+M set to 3.
+Using Gaussian kernel for the features, Delta kernel for the outcomes.
+Number of features selected by HSIC Lasso: 5
+Average sparsity: 0.25
+calculating cross entropy loss for categorical response
+loss is 0.2935219229345676
+loss_baseline is 0.3465583020827596
+Relative loss: 0.847
+Test accuracy with n=10000, p=20, k=5, type=binary: [0.687, 0.6865]
+Duration for running in the setting n=10000, p=20, k=5, type=binary: 32.85286521911621 seconds
+#########################################
+################ n=100, p=100, k=10, type=continuous ################
+#########################################
+X_train.shape: (64, 100), X_val.shape: (16, 100), X_test.shape: (20, 100)
+y_train.shape: (64,), y_val.shape: (16,), y_test.shape: (20,)
+Block HSIC Lasso B = 20.
+M set to 3.
+Using Gaussian kernel for the features, Gaussian kernel for the outcomes.
+Number of features selected by HSIC Lasso: 10
+Average sparsity: 0.1
+loss is 3.619141478980737
+loss_baseline is 9.883995395525059
+Mean of predictions: 0.05721018835902214
+Std of predictions: 1.7096203565597534
+Mean of true values: -0.6548360199748614
+Std of true values: 3.029369372009301
+Relative loss: 0.366
+Test R2 score with n=100, p=100, k=10, type=continuous: [0.5864157167473225, 0.6056325154243147]
+Test MSE: 3.619
+Duration for running in the setting n=100, p=100, k=10, type=continuous: 5.428509950637817 seconds
+#########################################
+################ n=100, p=100, k=10, type=binary ################
+#########################################
+X_train.shape: (64, 100), X_val.shape: (16, 100), X_test.shape: (20, 100)
+y_train.shape: (64,), y_val.shape: (16,), y_test.shape: (20,)
+Block HSIC Lasso B = 20.
+M set to 3.
+Using Gaussian kernel for the features, Delta kernel for the outcomes.
+Number of features selected by HSIC Lasso: 10
+Average sparsity: 0.1
+calculating cross entropy loss for categorical response
+loss is 0.47162469970062376
+loss_baseline is 0.33699879468570276
+Relative loss: 1.399
+Test accuracy with n=100, p=100, k=10, type=binary: [0.65, 0.65]
+Duration for running in the setting n=100, p=100, k=10, type=binary: 3.5536048412323 seconds
+#########################################
+################ n=1000, p=100, k=10, type=continuous ################
+#########################################
+X_train.shape: (640, 100), X_val.shape: (160, 100), X_test.shape: (200, 100)
+y_train.shape: (640,), y_val.shape: (160,), y_test.shape: (200,)
+Block HSIC Lasso B = 20.
+M set to 3.
+Using Gaussian kernel for the features, Gaussian kernel for the outcomes.
+Number of features selected by HSIC Lasso: 10
+Average sparsity: 0.1
+loss is 2.6695140442101803
+loss_baseline is 18.854069086419578
+Mean of predictions: 0.05565788224339485
+Std of predictions: 3.9214248657226562
+Mean of true values: 0.15130696562309617
+Std of true values: 4.336757620751474
+Relative loss: 0.142
+Test R2 score with n=1000, p=100, k=10, type=continuous: [0.6820759649603771, 0.8580609450328001]
+Test MSE: 2.670
+Duration for running in the setting n=1000, p=100, k=10, type=continuous: 9.017802953720093 seconds
+#########################################
+################ n=1000, p=100, k=10, type=binary ################
+#########################################
+X_train.shape: (640, 100), X_val.shape: (160, 100), X_test.shape: (200, 100)
+y_train.shape: (640,), y_val.shape: (160,), y_test.shape: (200,)
+Block HSIC Lasso B = 20.
+M set to 3.
+Using Gaussian kernel for the features, Delta kernel for the outcomes.
+Number of features selected by HSIC Lasso: 10
+Average sparsity: 0.1
+calculating cross entropy loss for categorical response
+loss is 0.16406798206045095
+loss_baseline is 0.34659556390187446
+Relative loss: 0.473
+Test accuracy with n=1000, p=100, k=10, type=binary: [0.84, 0.84]
+Duration for running in the setting n=1000, p=100, k=10, type=binary: 8.284703969955444 seconds
+#########################################
+################ n=10000, p=100, k=10, type=continuous ################
+#########################################
+X_train.shape: (6400, 100), X_val.shape: (1600, 100), X_test.shape: (2000, 100)
+y_train.shape: (6400,), y_val.shape: (1600,), y_test.shape: (2000,)
+Block HSIC Lasso B = 20.
+M set to 3.
+Using Gaussian kernel for the features, Gaussian kernel for the outcomes.
+Number of features selected by HSIC Lasso: 10
+Average sparsity: 0.1
+loss is 2.011774066538574
+loss_baseline is 21.304612345834933
+Mean of predictions: -0.08545294404029846
+Std of predictions: 4.303735733032227
+Mean of true values: -0.10307402401401569
+Std of true values: 4.615272870765785
+Relative loss: 0.094
+Test R2 score with n=10000, p=100, k=10, type=continuous: [0.7405064158572001, 0.9055538108174914]
+Test MSE: 2.012
+Duration for running in the setting n=10000, p=100, k=10, type=continuous: 48.620445013046265 seconds
+#########################################
+################ n=10000, p=100, k=10, type=binary ################
+#########################################
+X_train.shape: (6400, 100), X_val.shape: (1600, 100), X_test.shape: (2000, 100)
+y_train.shape: (6400,), y_val.shape: (1600,), y_test.shape: (2000,)
+Block HSIC Lasso B = 20.
+M set to 3.
+Using Gaussian kernel for the features, Delta kernel for the outcomes.
+Number of features selected by HSIC Lasso: 10
+Average sparsity: 0.1
+calculating cross entropy loss for categorical response
+loss is 0.15801624182861043
+loss_baseline is 0.3465035883631993
+Relative loss: 0.456
+Test accuracy with n=10000, p=100, k=10, type=binary: [0.86, 0.86]
+Duration for running in the setting n=10000, p=100, k=10, type=binary: 57.590831995010376 seconds
